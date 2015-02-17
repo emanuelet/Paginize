@@ -1,0 +1,80 @@
+net.neevek.android.lib.paginize.BuildConfig
+net.neevek.android.lib.paginize.InnerPage
+net.neevek.android.lib.paginize.InnerPageContainer
+net.neevek.android.lib.paginize.InnerPageManager
+net.neevek.android.lib.paginize.Page:
+    42:53:public Page(net.neevek.android.lib.paginize.PageActivity)
+    56:57:public void setType(net.neevek.android.lib.paginize.Page$TYPE)
+    66:66:public boolean keepSingleInstance()
+    74:75:public void setReturnData(java.lang.Object)
+    78:78:public net.neevek.android.lib.paginize.PageManager getPageManager()
+    82:83:public void show()
+    86:87:public void show(java.lang.Object,boolean)
+    90:91:public void show(java.lang.Object,boolean,boolean)
+    94:97:protected void hide(boolean)
+    100:103:protected void hide(boolean,boolean)
+    106:107:protected void hideDelayed(boolean,boolean)
+    110:118:protected void hideDelayed(boolean,boolean,int)
+    121:121:public boolean isKeptInStack()
+    126:126:public boolean onPushPageAnimation(net.neevek.android.lib.paginize.Page,net.neevek.android.lib.paginize.Page,boolean)
+net.neevek.android.lib.paginize.Page$1
+net.neevek.android.lib.paginize.PageActivity:
+    90:90:public net.neevek.android.lib.paginize.PageManager getPageManager()
+    94:95:public void hideTopPage()
+    98:98:public int getPageCount()
+net.neevek.android.lib.paginize.PageDataCallback
+net.neevek.android.lib.paginize.PageManager:
+    78:79:public void pushPage(net.neevek.android.lib.paginize.Page)
+    82:83:public void pushPage(net.neevek.android.lib.paginize.Page,java.lang.Object,boolean)
+    86:135:public void pushPage(net.neevek.android.lib.paginize.Page,java.lang.Object,boolean,boolean)
+    138:141:private void hideOldPageIfNeeded(net.neevek.android.lib.paginize.Page,net.neevek.android.lib.paginize.Page)
+    144:145:public void popPage(boolean)
+    178:179:public void popToPage(net.neevek.android.lib.paginize.Page,boolean)
+    190:216:public void popToPage(net.neevek.android.lib.paginize.Page,boolean,boolean)
+    219:220:public void popToClass(java.lang.Class,boolean)
+    231:236:public void popToClass(java.lang.Class,boolean,boolean)
+    239:240:public void popToClasses(java.lang.Class[],boolean)
+    251:305:public void popToClasses(java.lang.Class[],boolean,boolean)
+    354:368:public int lastIndexOfPage(java.lang.Class)
+    465:465:public net.neevek.android.lib.paginize.Page getTopPage()
+    473:473:boolean isPageKeptInStack(net.neevek.android.lib.paginize.Page)
+    45:45:static synthetic void access$000(net.neevek.android.lib.paginize.PageManager,net.neevek.android.lib.paginize.Page,net.neevek.android.lib.paginize.Page)
+net.neevek.android.lib.paginize.PageManager$1
+net.neevek.android.lib.paginize.PagePagerAdapter
+net.neevek.android.lib.paginize.ViewPagerInnerPage
+net.neevek.android.lib.paginize.ViewPagerPage
+net.neevek.android.lib.paginize.ViewWrapper:
+    protected net.neevek.android.lib.paginize.PageActivity mContext
+    57:60:public ViewWrapper(net.neevek.android.lib.paginize.PageActivity)
+    63:114:private void init()
+    117:117:public net.neevek.android.lib.paginize.PageActivity getContext()
+    125:125:public android.view.View findViewById(int)
+    129:129:public java.lang.String getString(int)
+    133:133:public varargs java.lang.String getString(int,java.lang.Object[])
+    137:137:public android.content.res.Resources getResources()
+    141:142:protected void hideTopPage()
+    145:145:public boolean isAttached()
+    149:152:public boolean post(java.lang.Runnable)
+    167:167:public void onAttach()
+    181:181:public void onShown(java.lang.Object)
+    196:196:public void onCovered()
+net.neevek.android.lib.paginize.ViewWrapper$1
+net.neevek.android.lib.paginize.anim.PageAnimator:
+    public abstract boolean onPushPageAnimation(net.neevek.android.lib.paginize.Page,net.neevek.android.lib.paginize.Page,boolean)
+net.neevek.android.lib.paginize.anim.SlidePageAnimator:
+    private static final int ANIMATION_DURATION
+    56:66:public boolean onPushPageAnimation(net.neevek.android.lib.paginize.Page,net.neevek.android.lib.paginize.Page,boolean)
+net.neevek.android.lib.paginize.anim.ZoomPageAnimator:
+    private static final int ANIMATION_DURATION
+    59:61:public boolean onPushPageAnimation(net.neevek.android.lib.paginize.Page,net.neevek.android.lib.paginize.Page,boolean)
+net.neevek.android.lib.paginize.annotation.InheritPageLayout
+net.neevek.android.lib.paginize.annotation.InnerPageContainerLayoutResId
+net.neevek.android.lib.paginize.annotation.ListenerDefs
+net.neevek.android.lib.paginize.annotation.PageLayout
+net.neevek.android.lib.paginize.annotation.SetListeners
+net.neevek.android.lib.paginize.annotation.ViewPagerResId
+net.neevek.android.lib.paginize.exception.InjectFailedException:
+    29:30:public InjectFailedException(java.lang.String)
+net.neevek.android.lib.paginize.util.AnnotationUtils:
+    42:42:public AnnotationUtils()
+    87:125:public static void handleAnnotatedPageConstructors(java.lang.Class,java.lang.Object,net.neevek.android.lib.paginize.util.ViewFinder)

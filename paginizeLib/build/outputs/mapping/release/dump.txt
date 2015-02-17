@@ -1,0 +1,3763 @@
+_____________________________________________________________________
++ Program class: net/neevek/android/lib/paginize/a
+  Superclass:    net/neevek/android/lib/paginize/f
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x421
+    = public abstract class net.neevek.android.lib.paginize.a extends net.neevek.android.lib.paginize.f
+
+Interfaces (count = 1):
+  + Class [net/neevek/android/lib/paginize/anim/PageAnimator]
+
+Constant Pool (count = 24):
+  + Class [net/neevek/android/lib/paginize/a]
+  + Class [net/neevek/android/lib/paginize/anim/PageAnimator]
+  + Class [net/neevek/android/lib/paginize/f]
+  + Fieldref [net/neevek/android/lib/paginize/a.a Lnet/neevek/android/lib/paginize/b;]
+  + Fieldref [net/neevek/android/lib/paginize/a.b Ljava/lang/Object;]
+  + NameAndType [a Lnet/neevek/android/lib/paginize/b;]
+  + NameAndType [b Ljava/lang/Object;]
+  + Utf8 [()I]
+  + Utf8 [()Ljava/lang/Object;]
+  + Utf8 [()Lnet/neevek/android/lib/paginize/b;]
+  + Utf8 [(Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;Z)Z]
+  + Utf8 [Code]
+  + Utf8 [LineNumberTable]
+  + Utf8 [Ljava/lang/Object;]
+  + Utf8 [Lnet/neevek/android/lib/paginize/b;]
+  + Utf8 [ProGuard]
+  + Utf8 [SourceFile]
+  + Utf8 [a]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [net/neevek/android/lib/paginize/a]
+  + Utf8 [net/neevek/android/lib/paginize/anim/PageAnimator]
+  + Utf8 [net/neevek/android/lib/paginize/f]
+
+Fields (count = 2):
+  + Field:        a Lnet/neevek/android/lib/paginize/b;
+    Access flags: 0x2
+      = private net.neevek.android.lib.paginize.b a
+  + Field:        b Ljava/lang/Object;
+    Access flags: 0x2
+      = private java.lang.Object b
+
+Methods (count = 4):
+  + Method:       a()Lnet/neevek/android/lib/paginize/b;
+    Access flags: 0x1
+      = public net.neevek.android.lib.paginize.b a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #4
+        + Fieldref [net/neevek/android/lib/paginize/a.a Lnet/neevek/android/lib/paginize/b;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 60
+  + Method:       b()Ljava/lang/Object;
+    Access flags: 0x1
+      = public java.lang.Object b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #5
+        + Fieldref [net/neevek/android/lib/paginize/a.b Ljava/lang/Object;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 70
+  + Method:       a(Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;Z)Z
+    Access flags: 0x1
+      = public boolean a(net.neevek.android.lib.paginize.a,net.neevek.android.lib.paginize.a,boolean)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 2, locals = 4, stack = 1):
+      [0] iconst_0
+      [1] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 131
+  + Method:       c()I
+    Access flags: 0x1
+      = public int c()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 2, locals = 1, stack = 1):
+      [0] iconst_m1
+      [1] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 136
+
+Class file attributes (count = 1):
+  + Source file attribute:
+    + Utf8 [ProGuard]
+
+_____________________________________________________________________
++ Program class: net/neevek/android/lib/paginize/b
+  Superclass:    java/lang/Enum
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x4031
+    = public final enum enum net.neevek.android.lib.paginize.b extends java.lang.Enum
+
+Interfaces (count = 0):
+
+Constant Pool (count = 43):
+  + String [TYPE_DIALOG]
+  + String [TYPE_NORMAL]
+  + Class [[Lnet/neevek/android/lib/paginize/b;]
+  + Class [java/lang/Enum]
+  + Class [net/neevek/android/lib/paginize/b]
+  + Fieldref [net/neevek/android/lib/paginize/b.a Lnet/neevek/android/lib/paginize/b;]
+  + Fieldref [net/neevek/android/lib/paginize/b.b Lnet/neevek/android/lib/paginize/b;]
+  + Fieldref [net/neevek/android/lib/paginize/b.c [Lnet/neevek/android/lib/paginize/b;]
+  + Methodref [[Lnet/neevek/android/lib/paginize/b;.clone ()Ljava/lang/Object;]
+  + Methodref [java/lang/Enum.<init> (Ljava/lang/String;I)V]
+  + Methodref [java/lang/Enum.valueOf (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;]
+  + Methodref [net/neevek/android/lib/paginize/b.<init> (Ljava/lang/String;I)V]
+  + NameAndType [<init> (Ljava/lang/String;I)V]
+  + NameAndType [a Lnet/neevek/android/lib/paginize/b;]
+  + NameAndType [b Lnet/neevek/android/lib/paginize/b;]
+  + NameAndType [c [Lnet/neevek/android/lib/paginize/b;]
+  + NameAndType [clone ()Ljava/lang/Object;]
+  + NameAndType [valueOf (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;]
+  + Utf8 [()Ljava/lang/Object;]
+  + Utf8 [()V]
+  + Utf8 [()[Lnet/neevek/android/lib/paginize/b;]
+  + Utf8 [(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;]
+  + Utf8 [(Ljava/lang/String;)Lnet/neevek/android/lib/paginize/b;]
+  + Utf8 [(Ljava/lang/String;I)V]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [LineNumberTable]
+  + Utf8 [Lnet/neevek/android/lib/paginize/b;]
+  + Utf8 [ProGuard]
+  + Utf8 [SourceFile]
+  + Utf8 [TYPE_DIALOG]
+  + Utf8 [TYPE_NORMAL]
+  + Utf8 [[Lnet/neevek/android/lib/paginize/b;]
+  + Utf8 [a]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [clone]
+  + Utf8 [java/lang/Enum]
+  + Utf8 [net/neevek/android/lib/paginize/b]
+  + Utf8 [valueOf]
+  + Utf8 [values]
+
+Fields (count = 3):
+  + Field:        a Lnet/neevek/android/lib/paginize/b;
+    Access flags: 0x4019
+      = public static final net.neevek.android.lib.paginize.b a
+  + Field:        b Lnet/neevek/android/lib/paginize/b;
+    Access flags: 0x4019
+      = public static final net.neevek.android.lib.paginize.b b
+  + Field:        c [Lnet/neevek/android/lib/paginize/b;
+    Access flags: 0x101a
+      = private static final synthetic net.neevek.android.lib.paginize.b[] c
+
+Methods (count = 4):
+  + Method:       values()[Lnet/neevek/android/lib/paginize/b;
+    Access flags: 0x9
+      = public static net.neevek.android.lib.paginize.b[] values()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 0, stack = 1):
+      [0] getstatic #8
+        + Fieldref [net/neevek/android/lib/paginize/b.c [Lnet/neevek/android/lib/paginize/b;]
+      [3] invokevirtual #9
+        + Methodref [[Lnet/neevek/android/lib/paginize/b;.clone ()Ljava/lang/Object;]
+      [6] checkcast #3
+        + Class [[Lnet/neevek/android/lib/paginize/b;]
+      [9] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 46
+  + Method:       valueOf(Ljava/lang/String;)Lnet/neevek/android/lib/paginize/b;
+    Access flags: 0x9
+      = public static net.neevek.android.lib.paginize.b valueOf(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 1, stack = 2):
+      [0] ldc #5
+        + Class [net/neevek/android/lib/paginize/b]
+      [2] aload_0 v0
+      [3] invokestatic #11
+        + Methodref [java/lang/Enum.valueOf (Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;]
+      [6] checkcast #5
+        + Class [net/neevek/android/lib/paginize/b]
+      [9] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 46
+  - Method:       <init>(Ljava/lang/String;I)V
+    Access flags: 0x2
+      = private b(java.lang.String,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 7, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] iload_2 v2
+      [3] invokespecial #10
+        + Methodref [java/lang/Enum.<init> (Ljava/lang/String;I)V]
+      [6] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 46
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 46, locals = 0, stack = 4):
+      [0] new #5
+        + Class [net/neevek/android/lib/paginize/b]
+      [3] dup
+      [4] ldc #2
+        + String [TYPE_NORMAL]
+      [6] iconst_0
+      [7] invokespecial #12
+        + Methodref [net/neevek/android/lib/paginize/b.<init> (Ljava/lang/String;I)V]
+      [10] putstatic #6
+        + Fieldref [net/neevek/android/lib/paginize/b.a Lnet/neevek/android/lib/paginize/b;]
+      [13] new #5
+        + Class [net/neevek/android/lib/paginize/b]
+      [16] dup
+      [17] ldc #1
+        + String [TYPE_DIALOG]
+      [19] iconst_1
+      [20] invokespecial #12
+        + Methodref [net/neevek/android/lib/paginize/b.<init> (Ljava/lang/String;I)V]
+      [23] putstatic #7
+        + Fieldref [net/neevek/android/lib/paginize/b.b Lnet/neevek/android/lib/paginize/b;]
+      [26] iconst_2
+      [27] anewarray #5
+        + Class [net/neevek/android/lib/paginize/b]
+      [30] dup
+      [31] iconst_0
+      [32] getstatic #6
+        + Fieldref [net/neevek/android/lib/paginize/b.a Lnet/neevek/android/lib/paginize/b;]
+      [35] aastore
+      [36] dup
+      [37] iconst_1
+      [38] getstatic #7
+        + Fieldref [net/neevek/android/lib/paginize/b.b Lnet/neevek/android/lib/paginize/b;]
+      [41] aastore
+      [42] putstatic #8
+        + Fieldref [net/neevek/android/lib/paginize/b.c [Lnet/neevek/android/lib/paginize/b;]
+      [45] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 47
+        [13] -> line 48
+        [26] -> line 46
+
+Class file attributes (count = 1):
+  + Source file attribute:
+    + Utf8 [ProGuard]
+
+_____________________________________________________________________
++ Program class: net/neevek/android/lib/paginize/PageActivity
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x21
+    = public class net.neevek.android.lib.paginize.PageActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 166):
+  + Integer [16908290]
+  + Class [android/app/Activity]
+  + Class [android/view/ViewGroup]
+  + Class [java/lang/Class]
+  + Class [java/lang/Exception]
+  + Class [java/lang/Object]
+  + Class [java/util/ArrayList]
+  + Class [java/util/List]
+  + Class [net/neevek/android/lib/paginize/PageActivity]
+  + Class [net/neevek/android/lib/paginize/anim/PageAnimator]
+  + Class [net/neevek/android/lib/paginize/annotation/a]
+  + Class [net/neevek/android/lib/paginize/c]
+  + Class [net/neevek/android/lib/paginize/d]
+  + Class [net/neevek/android/lib/paginize/exception/a]
+  + Class [net/neevek/android/lib/paginize/util/a]
+  + Fieldref [net/neevek/android/lib/paginize/PageActivity.a Lnet/neevek/android/lib/paginize/d;]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onConfigurationChanged (Landroid/content/res/Configuration;)V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/Activity.onDestroy ()V]
+  + Methodref [android/app/Activity.onKeyDown (ILandroid/view/KeyEvent;)Z]
+  + Methodref [android/app/Activity.onKeyUp (ILandroid/view/KeyEvent;)Z]
+  + Methodref [android/app/Activity.onPause ()V]
+  + Methodref [android/app/Activity.onRestoreInstanceState (Landroid/os/Bundle;)V]
+  + Methodref [android/app/Activity.onResume ()V]
+  + Methodref [android/app/Activity.onSaveInstanceState (Landroid/os/Bundle;)V]
+  + Methodref [android/app/Activity.onTouchEvent (Landroid/view/MotionEvent;)Z]
+  + Methodref [java/lang/Class.getAnnotation (Ljava/lang/Class;)Ljava/lang/annotation/Annotation;]
+  + Methodref [java/lang/Class.getSuperclass ()Ljava/lang/Class;]
+  + Methodref [java/lang/Class.newInstance ()Ljava/lang/Object;]
+  + Methodref [java/lang/Exception.printStackTrace ()V]
+  + Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+  + Methodref [java/util/ArrayList.<init> ()V]
+  + Methodref [net/neevek/android/lib/paginize/PageActivity.a ()V]
+  + Methodref [net/neevek/android/lib/paginize/PageActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [net/neevek/android/lib/paginize/PageActivity.finish ()V]
+  + Methodref [net/neevek/android/lib/paginize/c.<init> (Lnet/neevek/android/lib/paginize/PageActivity;)V]
+  + Methodref [net/neevek/android/lib/paginize/d.<init> (Landroid/view/ViewGroup;)V]
+  + Methodref [net/neevek/android/lib/paginize/d.a ()Lnet/neevek/android/lib/paginize/anim/PageAnimator;]
+  + Methodref [net/neevek/android/lib/paginize/d.a (IILandroid/content/Intent;)V]
+  + Methodref [net/neevek/android/lib/paginize/d.a (ILandroid/view/KeyEvent;)Z]
+  + Methodref [net/neevek/android/lib/paginize/d.a (Landroid/content/res/Configuration;)V]
+  + Methodref [net/neevek/android/lib/paginize/d.a (Landroid/os/Bundle;)V]
+  + Methodref [net/neevek/android/lib/paginize/d.a (Landroid/view/MotionEvent;)Z]
+  + Methodref [net/neevek/android/lib/paginize/d.a (Lnet/neevek/android/lib/paginize/anim/PageAnimator;)V]
+  + Methodref [net/neevek/android/lib/paginize/d.b ()Z]
+  + Methodref [net/neevek/android/lib/paginize/d.b (ILandroid/view/KeyEvent;)Z]
+  + Methodref [net/neevek/android/lib/paginize/d.b (Landroid/os/Bundle;)V]
+  + Methodref [net/neevek/android/lib/paginize/d.c ()V]
+  + Methodref [net/neevek/android/lib/paginize/d.d ()V]
+  + Methodref [net/neevek/android/lib/paginize/d.e ()V]
+  + Methodref [net/neevek/android/lib/paginize/exception/a.<init> (Ljava/lang/Throwable;)V]
+  + Methodref [net/neevek/android/lib/paginize/util/a.a (Ljava/lang/Class;Ljava/lang/Object;Lnet/neevek/android/lib/paginize/util/b;)V]
+  + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+  + InterfaceMethodref [java/util/List.get (I)Ljava/lang/Object;]
+  + InterfaceMethodref [java/util/List.size ()I]
+  + InterfaceMethodref [net/neevek/android/lib/paginize/annotation/a.a ()Ljava/lang/Class;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/view/ViewGroup;)V]
+  + NameAndType [<init> (Ljava/lang/Throwable;)V]
+  + NameAndType [<init> (Lnet/neevek/android/lib/paginize/PageActivity;)V]
+  + NameAndType [a ()Ljava/lang/Class;]
+  + NameAndType [a ()Lnet/neevek/android/lib/paginize/anim/PageAnimator;]
+  + NameAndType [a ()V]
+  + NameAndType [a (IILandroid/content/Intent;)V]
+  + NameAndType [a (ILandroid/view/KeyEvent;)Z]
+  + NameAndType [a (Landroid/content/res/Configuration;)V]
+  + NameAndType [a (Landroid/os/Bundle;)V]
+  + NameAndType [a (Landroid/view/MotionEvent;)Z]
+  + NameAndType [a (Ljava/lang/Class;Ljava/lang/Object;Lnet/neevek/android/lib/paginize/util/b;)V]
+  + NameAndType [a (Lnet/neevek/android/lib/paginize/anim/PageAnimator;)V]
+  + NameAndType [a Lnet/neevek/android/lib/paginize/d;]
+  + NameAndType [add (Ljava/lang/Object;)Z]
+  + NameAndType [b ()Z]
+  + NameAndType [b (ILandroid/view/KeyEvent;)Z]
+  + NameAndType [b (Landroid/os/Bundle;)V]
+  + NameAndType [c ()V]
+  + NameAndType [d ()V]
+  + NameAndType [e ()V]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [finish ()V]
+  + NameAndType [get (I)Ljava/lang/Object;]
+  + NameAndType [getAnnotation (Ljava/lang/Class;)Ljava/lang/annotation/Annotation;]
+  + NameAndType [getClass ()Ljava/lang/Class;]
+  + NameAndType [getSuperclass ()Ljava/lang/Class;]
+  + NameAndType [newInstance ()Ljava/lang/Object;]
+  + NameAndType [onConfigurationChanged (Landroid/content/res/Configuration;)V]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [onDestroy ()V]
+  + NameAndType [onKeyDown (ILandroid/view/KeyEvent;)Z]
+  + NameAndType [onKeyUp (ILandroid/view/KeyEvent;)Z]
+  + NameAndType [onPause ()V]
+  + NameAndType [onRestoreInstanceState (Landroid/os/Bundle;)V]
+  + NameAndType [onResume ()V]
+  + NameAndType [onSaveInstanceState (Landroid/os/Bundle;)V]
+  + NameAndType [onTouchEvent (Landroid/view/MotionEvent;)Z]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [size ()I]
+  + Utf8 [()I]
+  + Utf8 [()Ljava/lang/Class;]
+  + Utf8 [()Ljava/lang/Object;]
+  + Utf8 [()Lnet/neevek/android/lib/paginize/anim/PageAnimator;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/Object;]
+  + Utf8 [(IILandroid/content/Intent;)V]
+  + Utf8 [(ILandroid/view/KeyEvent;)Z]
+  + Utf8 [(Landroid/content/res/Configuration;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/MotionEvent;)Z]
+  + Utf8 [(Landroid/view/ViewGroup;)V]
+  + Utf8 [(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;]
+  + Utf8 [(Ljava/lang/Class;Ljava/lang/Object;Lnet/neevek/android/lib/paginize/util/b;)V]
+  + Utf8 [(Ljava/lang/Object;)Z]
+  + Utf8 [(Ljava/lang/Throwable;)V]
+  + Utf8 [(Lnet/neevek/android/lib/paginize/PageActivity;)V]
+  + Utf8 [(Lnet/neevek/android/lib/paginize/anim/PageAnimator;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [LineNumberTable]
+  + Utf8 [Lnet/neevek/android/lib/paginize/d;]
+  + Utf8 [ProGuard]
+  + Utf8 [SourceFile]
+  + Utf8 [a]
+  + Utf8 [add]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/view/ViewGroup]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [findViewById]
+  + Utf8 [finish]
+  + Utf8 [get]
+  + Utf8 [getAnnotation]
+  + Utf8 [getClass]
+  + Utf8 [getSuperclass]
+  + Utf8 [java/lang/Class]
+  + Utf8 [java/lang/Exception]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/util/ArrayList]
+  + Utf8 [java/util/List]
+  + Utf8 [net/neevek/android/lib/paginize/PageActivity]
+  + Utf8 [net/neevek/android/lib/paginize/anim/PageAnimator]
+  + Utf8 [net/neevek/android/lib/paginize/annotation/a]
+  + Utf8 [net/neevek/android/lib/paginize/c]
+  + Utf8 [net/neevek/android/lib/paginize/d]
+  + Utf8 [net/neevek/android/lib/paginize/exception/a]
+  + Utf8 [net/neevek/android/lib/paginize/util/a]
+  + Utf8 [newInstance]
+  + Utf8 [onActivityResult]
+  + Utf8 [onBackPressed]
+  + Utf8 [onConfigurationChanged]
+  + Utf8 [onCreate]
+  + Utf8 [onDestroy]
+  + Utf8 [onKeyDown]
+  + Utf8 [onKeyUp]
+  + Utf8 [onPause]
+  + Utf8 [onRestoreInstanceState]
+  + Utf8 [onResume]
+  + Utf8 [onSaveInstanceState]
+  + Utf8 [onTouchEvent]
+  + Utf8 [printStackTrace]
+  + Utf8 [size]
+
+Fields (count = 1):
+  + Field:        a Lnet/neevek/android/lib/paginize/d;
+    Access flags: 0x2
+      = private net.neevek.android.lib.paginize.d a
+
+Methods (count = 14):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public PageActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #17
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 47
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 47, locals = 3, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #19
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] new #13
+        + Class [net/neevek/android/lib/paginize/d]
+      [9] dup
+      [10] aload_0 v0
+      [11] ldc #1
+        + Integer [16908290]
+      [13] invokevirtual #35
+        + Methodref [net/neevek/android/lib/paginize/PageActivity.findViewById (I)Landroid/view/View;]
+      [16] checkcast #3
+        + Class [android/view/ViewGroup]
+      [19] invokespecial #38
+        + Methodref [net/neevek/android/lib/paginize/d.<init> (Landroid/view/ViewGroup;)V]
+      [22] putfield #16
+        + Fieldref [net/neevek/android/lib/paginize/PageActivity.a Lnet/neevek/android/lib/paginize/d;]
+      [25] aload_0 v0
+      [26] invokespecial #34
+        + Methodref [net/neevek/android/lib/paginize/PageActivity.a ()V]
+      [29] goto +17 (target=46)
+      [32] astore_2 v2
+      [33] aload_2 v2
+      [34] invokevirtual #31
+        + Methodref [java/lang/Exception.printStackTrace ()V]
+      [37] new #14
+        + Class [net/neevek/android/lib/paginize/exception/a]
+      [40] dup
+      [41] aload_2 v2
+      [42] invokespecial #52
+        + Methodref [net/neevek/android/lib/paginize/exception/a.<init> (Ljava/lang/Throwable;)V]
+      [45] athrow
+      [46] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (25 -> 29: 32):
+      + Class [java/lang/Exception]
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 8)
+        [0] -> line 52
+        [5] -> line 53
+        [25] -> line 56
+        [29] -> line 61
+        [32] -> line 58
+        [33] -> line 59
+        [37] -> line 60
+        [46] -> line 62
+  + Method:       a()V
+    Access flags: 0x2
+      = private void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 122, locals = 5, stack = 3):
+      [0] aload_0 v0
+      [1] invokevirtual #32
+        + Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+      [4] astore_1 v1
+      [5] new #7
+        + Class [java/util/ArrayList]
+      [8] dup
+      [9] invokespecial #33
+        + Methodref [java/util/ArrayList.<init> ()V]
+      [12] astore_2 v2
+      [13] aload_2 v2
+      [14] aload_1 v1
+      [15] invokeinterface #54, 512
+        + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
+      [20] pop
+      [21] aload_0 v0
+      [22] getfield #16
+        + Fieldref [net/neevek/android/lib/paginize/PageActivity.a Lnet/neevek/android/lib/paginize/d;]
+      [25] invokevirtual #39
+        + Methodref [net/neevek/android/lib/paginize/d.a ()Lnet/neevek/android/lib/paginize/anim/PageAnimator;]
+      [28] ifnonnull +36 (target=64)
+      [31] aload_1 v1
+      [32] ldc #11
+        + Class [net/neevek/android/lib/paginize/annotation/a]
+      [34] invokevirtual #28
+        + Methodref [java/lang/Class.getAnnotation (Ljava/lang/Class;)Ljava/lang/annotation/Annotation;]
+      [37] checkcast #11
+        + Class [net/neevek/android/lib/paginize/annotation/a]
+      [40] astore_3 v3
+      [41] aload_3 v3
+      [42] ifnull +22 (target=64)
+      [45] aload_0 v0
+      [46] getfield #16
+        + Fieldref [net/neevek/android/lib/paginize/PageActivity.a Lnet/neevek/android/lib/paginize/d;]
+      [49] aload_3 v3
+      [50] invokeinterface #57, 256
+        + InterfaceMethodref [net/neevek/android/lib/paginize/annotation/a.a ()Ljava/lang/Class;]
+      [55] invokevirtual #30
+        + Methodref [java/lang/Class.newInstance ()Ljava/lang/Object;]
+      [58] checkcast #10
+        + Class [net/neevek/android/lib/paginize/anim/PageAnimator]
+      [61] invokevirtual #45
+        + Methodref [net/neevek/android/lib/paginize/d.a (Lnet/neevek/android/lib/paginize/anim/PageAnimator;)V]
+      [64] aload_1 v1
+      [65] invokevirtual #29
+        + Methodref [java/lang/Class.getSuperclass ()Ljava/lang/Class;]
+      [68] dup
+      [69] astore_1 v1
+      [70] ldc #9
+        + Class [net/neevek/android/lib/paginize/PageActivity]
+      [72] ifacmpne -59 (target=13)
+      [75] new #12
+        + Class [net/neevek/android/lib/paginize/c]
+      [78] dup
+      [79] aload_0 v0
+      [80] invokespecial #37
+        + Methodref [net/neevek/android/lib/paginize/c.<init> (Lnet/neevek/android/lib/paginize/PageActivity;)V]
+      [83] astore_3 v3
+      [84] aload_2 v2
+      [85] invokeinterface #56, 256
+        + InterfaceMethodref [java/util/List.size ()I]
+      [90] iconst_1
+      [91] isub
+      [92] istore v4
+      [94] iload v4
+      [96] iflt +25 (target=121)
+      [99] aload_2 v2
+      [100] iload v4
+      [102] invokeinterface #55, 512
+        + InterfaceMethodref [java/util/List.get (I)Ljava/lang/Object;]
+      [107] checkcast #4
+        + Class [java/lang/Class]
+      [110] aload_0 v0
+      [111] aload_3 v3
+      [112] invokestatic #53
+        + Methodref [net/neevek/android/lib/paginize/util/a.a (Ljava/lang/Class;Ljava/lang/Object;Lnet/neevek/android/lib/paginize/util/b;)V]
+      [115] iinc v4, -1
+      [118] goto -24 (target=94)
+      [121] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 13)
+        [0] -> line 65
+        [5] -> line 67
+        [13] -> line 69
+        [21] -> line 71
+        [31] -> line 72
+        [41] -> line 73
+        [45] -> line 74
+        [64] -> line 77
+        [75] -> line 79
+        [84] -> line 84
+        [99] -> line 85
+        [115] -> line 84
+        [121] -> line 87
+  + Method:       onBackPressed()V
+    Access flags: 0x1
+      = public void onBackPressed()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #16
+        + Fieldref [net/neevek/android/lib/paginize/PageActivity.a Lnet/neevek/android/lib/paginize/d;]
+      [4] invokevirtual #46
+        + Methodref [net/neevek/android/lib/paginize/d.b ()Z]
+      [7] ifne +7 (target=14)
+      [10] aload_0 v0
+      [11] invokevirtual #36
+        + Methodref [net/neevek/android/lib/paginize/PageActivity.finish ()V]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 103
+        [10] -> line 104
+        [14] -> line 106
+  + Method:       onActivityResult(IILandroid/content/Intent;)V
+    Access flags: 0x4
+      = protected void onActivityResult(int,int,android.content.Intent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 11, locals = 4, stack = 4):
+      [0] aload_0 v0
+      [1] getfield #16
+        + Fieldref [net/neevek/android/lib/paginize/PageActivity.a Lnet/neevek/android/lib/paginize/d;]
+      [4] iload_1 v1
+      [5] iload_2 v2
+      [6] aload_3 v3
+      [7] invokevirtual #40
+        + Methodref [net/neevek/android/lib/paginize/d.a (IILandroid/content/Intent;)V]
+      [10] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 2)
+        [0] -> line 110
+        [10] -> line 111
+  + Method:       onResume()V
+    Access flags: 0x4
+      = protected void onResume()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #16
+        + Fieldref [net/neevek/android/lib/paginize/PageActivity.a Lnet/neevek/android/lib/paginize/d;]
+      [4] invokevirtual #50
+        + Methodref [net/neevek/android/lib/paginize/d.d ()V]
+      [7] aload_0 v0
+      [8] invokespecial #25
+        + Methodref [android/app/Activity.onResume ()V]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 115
+        [7] -> line 116
+        [11] -> line 117
+  + Method:       onPause()V
+    Access flags: 0x4
+      = protected void onPause()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #16
+        + Fieldref [net/neevek/android/lib/paginize/PageActivity.a Lnet/neevek/android/lib/paginize/d;]
+      [4] invokevirtual #49
+        + Methodref [net/neevek/android/lib/paginize/d.c ()V]
+      [7] aload_0 v0
+      [8] invokespecial #23
+        + Methodref [android/app/Activity.onPause ()V]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 121
+        [7] -> line 122
+        [11] -> line 123
+  + Method:       onDestroy()V
+    Access flags: 0x4
+      = protected void onDestroy()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #16
+        + Fieldref [net/neevek/android/lib/paginize/PageActivity.a Lnet/neevek/android/lib/paginize/d;]
+      [4] invokevirtual #51
+        + Methodref [net/neevek/android/lib/paginize/d.e ()V]
+      [7] aload_0 v0
+      [8] invokespecial #20
+        + Methodref [android/app/Activity.onDestroy ()V]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 127
+        [7] -> line 128
+        [11] -> line 129
+  + Method:       onKeyDown(ILandroid/view/KeyEvent;)Z
+    Access flags: 0x1
+      = public boolean onKeyDown(int,android.view.KeyEvent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 21, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #16
+        + Fieldref [net/neevek/android/lib/paginize/PageActivity.a Lnet/neevek/android/lib/paginize/d;]
+      [4] iload_1 v1
+      [5] aload_2 v2
+      [6] invokevirtual #41
+        + Methodref [net/neevek/android/lib/paginize/d.a (ILandroid/view/KeyEvent;)Z]
+      [9] ifeq +5 (target=14)
+      [12] iconst_1
+      [13] ireturn
+      [14] aload_0 v0
+      [15] iload_1 v1
+      [16] aload_2 v2
+      [17] invokespecial #21
+        + Methodref [android/app/Activity.onKeyDown (ILandroid/view/KeyEvent;)Z]
+      [20] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 133
+        [12] -> line 134
+        [14] -> line 136
+  + Method:       onKeyUp(ILandroid/view/KeyEvent;)Z
+    Access flags: 0x1
+      = public boolean onKeyUp(int,android.view.KeyEvent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 21, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #16
+        + Fieldref [net/neevek/android/lib/paginize/PageActivity.a Lnet/neevek/android/lib/paginize/d;]
+      [4] iload_1 v1
+      [5] aload_2 v2
+      [6] invokevirtual #47
+        + Methodref [net/neevek/android/lib/paginize/d.b (ILandroid/view/KeyEvent;)Z]
+      [9] ifeq +5 (target=14)
+      [12] iconst_1
+      [13] ireturn
+      [14] aload_0 v0
+      [15] iload_1 v1
+      [16] aload_2 v2
+      [17] invokespecial #22
+        + Methodref [android/app/Activity.onKeyUp (ILandroid/view/KeyEvent;)Z]
+      [20] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 141
+        [12] -> line 142
+        [14] -> line 144
+  + Method:       onTouchEvent(Landroid/view/MotionEvent;)Z
+    Access flags: 0x1
+      = public boolean onTouchEvent(android.view.MotionEvent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 19, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #16
+        + Fieldref [net/neevek/android/lib/paginize/PageActivity.a Lnet/neevek/android/lib/paginize/d;]
+      [4] aload_1 v1
+      [5] invokevirtual #44
+        + Methodref [net/neevek/android/lib/paginize/d.a (Landroid/view/MotionEvent;)Z]
+      [8] ifeq +5 (target=13)
+      [11] iconst_1
+      [12] ireturn
+      [13] aload_0 v0
+      [14] aload_1 v1
+      [15] invokespecial #27
+        + Methodref [android/app/Activity.onTouchEvent (Landroid/view/MotionEvent;)Z]
+      [18] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 149
+        [11] -> line 150
+        [13] -> line 152
+  + Method:       onConfigurationChanged(Landroid/content/res/Configuration;)V
+    Access flags: 0x1
+      = public void onConfigurationChanged(android.content.res.Configuration)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 14, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #16
+        + Fieldref [net/neevek/android/lib/paginize/PageActivity.a Lnet/neevek/android/lib/paginize/d;]
+      [4] aload_1 v1
+      [5] invokevirtual #42
+        + Methodref [net/neevek/android/lib/paginize/d.a (Landroid/content/res/Configuration;)V]
+      [8] aload_0 v0
+      [9] aload_1 v1
+      [10] invokespecial #18
+        + Methodref [android/app/Activity.onConfigurationChanged (Landroid/content/res/Configuration;)V]
+      [13] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 157
+        [8] -> line 158
+        [13] -> line 159
+  + Method:       onSaveInstanceState(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onSaveInstanceState(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 14, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #16
+        + Fieldref [net/neevek/android/lib/paginize/PageActivity.a Lnet/neevek/android/lib/paginize/d;]
+      [4] aload_1 v1
+      [5] invokevirtual #43
+        + Methodref [net/neevek/android/lib/paginize/d.a (Landroid/os/Bundle;)V]
+      [8] aload_0 v0
+      [9] aload_1 v1
+      [10] invokespecial #26
+        + Methodref [android/app/Activity.onSaveInstanceState (Landroid/os/Bundle;)V]
+      [13] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 163
+        [8] -> line 164
+        [13] -> line 165
+  + Method:       onRestoreInstanceState(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onRestoreInstanceState(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 14, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #16
+        + Fieldref [net/neevek/android/lib/paginize/PageActivity.a Lnet/neevek/android/lib/paginize/d;]
+      [4] aload_1 v1
+      [5] invokevirtual #48
+        + Methodref [net/neevek/android/lib/paginize/d.b (Landroid/os/Bundle;)V]
+      [8] aload_0 v0
+      [9] aload_1 v1
+      [10] invokespecial #24
+        + Methodref [android/app/Activity.onRestoreInstanceState (Landroid/os/Bundle;)V]
+      [13] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 169
+        [8] -> line 170
+        [13] -> line 171
+
+Class file attributes (count = 1):
+  + Source file attribute:
+    + Utf8 [ProGuard]
+
+_____________________________________________________________________
++ Program class: net/neevek/android/lib/paginize/c
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x20
+    = class net.neevek.android.lib.paginize.c extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [net/neevek/android/lib/paginize/util/b]
+
+Constant Pool (count = 26):
+  + Class [java/lang/Object]
+  + Class [net/neevek/android/lib/paginize/PageActivity]
+  + Class [net/neevek/android/lib/paginize/c]
+  + Class [net/neevek/android/lib/paginize/util/b]
+  + Fieldref [net/neevek/android/lib/paginize/c.a Lnet/neevek/android/lib/paginize/PageActivity;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [net/neevek/android/lib/paginize/PageActivity.findViewById (I)Landroid/view/View;]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lnet/neevek/android/lib/paginize/PageActivity;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(Lnet/neevek/android/lib/paginize/PageActivity;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [LineNumberTable]
+  + Utf8 [Lnet/neevek/android/lib/paginize/PageActivity;]
+  + Utf8 [ProGuard]
+  + Utf8 [SourceFile]
+  + Utf8 [a]
+  + Utf8 [findViewById]
+  + Utf8 [java/lang/Object]
+  + Utf8 [net/neevek/android/lib/paginize/PageActivity]
+  + Utf8 [net/neevek/android/lib/paginize/c]
+  + Utf8 [net/neevek/android/lib/paginize/util/b]
+
+Fields (count = 1):
+  + Field:        a Lnet/neevek/android/lib/paginize/PageActivity;
+    Access flags: 0x1010
+      = final synthetic net.neevek.android.lib.paginize.PageActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lnet/neevek/android/lib/paginize/PageActivity;)V
+    Access flags: 0x0
+      = c(net.neevek.android.lib.paginize.PageActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #5
+        + Fieldref [net/neevek/android/lib/paginize/c.a Lnet/neevek/android/lib/paginize/PageActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #6
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 79
+  + Method:       a(I)Landroid/view/View;
+    Access flags: 0x1
+      = public android.view.View a(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 9, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #5
+        + Fieldref [net/neevek/android/lib/paginize/c.a Lnet/neevek/android/lib/paginize/PageActivity;]
+      [4] iload_1 v1
+      [5] invokevirtual #7
+        + Methodref [net/neevek/android/lib/paginize/PageActivity.findViewById (I)Landroid/view/View;]
+      [8] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 81
+
+Class file attributes (count = 1):
+  + Source file attribute:
+    + Utf8 [ProGuard]
+
+_____________________________________________________________________
++ Program class: net/neevek/android/lib/paginize/d
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x21
+    = public class net.neevek.android.lib.paginize.d extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 186):
+  + Integer [1]
+  + String [>>>> popPage, pagestack=%d, %s]
+  + Class [android/util/Log]
+  + Class [android/view/KeyEvent]
+  + Class [android/view/View]
+  + Class [android/view/ViewGroup]
+  + Class [java/lang/Class]
+  + Class [java/lang/Integer]
+  + Class [java/lang/Object]
+  + Class [java/lang/String]
+  + Class [java/util/LinkedList]
+  + Class [net/neevek/android/lib/paginize/a]
+  + Class [net/neevek/android/lib/paginize/anim/PageAnimator]
+  + Class [net/neevek/android/lib/paginize/b]
+  + Class [net/neevek/android/lib/paginize/d]
+  + Class [net/neevek/android/lib/paginize/e]
+  + Fieldref [net/neevek/android/lib/paginize/b.b Lnet/neevek/android/lib/paginize/b;]
+  + Fieldref [net/neevek/android/lib/paginize/d.a Ljava/lang/String;]
+  + Fieldref [net/neevek/android/lib/paginize/d.b Z]
+  + Fieldref [net/neevek/android/lib/paginize/d.c Landroid/view/ViewGroup;]
+  + Fieldref [net/neevek/android/lib/paginize/d.d Ljava/util/LinkedList;]
+  + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+  + Fieldref [net/neevek/android/lib/paginize/d.f Lnet/neevek/android/lib/paginize/anim/PageAnimator;]
+  + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [android/view/KeyEvent.getRepeatCount ()I]
+  + Methodref [android/view/View.setVisibility (I)V]
+  + Methodref [android/view/ViewGroup.removeView (Landroid/view/View;)V]
+  + Methodref [java/lang/Class.getSimpleName ()Ljava/lang/String;]
+  + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/String.format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;]
+  + Methodref [java/util/LinkedList.<init> ()V]
+  + Methodref [java/util/LinkedList.getLast ()Ljava/lang/Object;]
+  + Methodref [java/util/LinkedList.removeLast ()Ljava/lang/Object;]
+  + Methodref [java/util/LinkedList.size ()I]
+  + Methodref [net/neevek/android/lib/paginize/a.a ()Lnet/neevek/android/lib/paginize/b;]
+  + Methodref [net/neevek/android/lib/paginize/a.a (IILandroid/content/Intent;)V]
+  + Methodref [net/neevek/android/lib/paginize/a.a (ILandroid/view/KeyEvent;)Z]
+  + Methodref [net/neevek/android/lib/paginize/a.a (Landroid/content/res/Configuration;)V]
+  + Methodref [net/neevek/android/lib/paginize/a.a (Landroid/os/Bundle;)V]
+  + Methodref [net/neevek/android/lib/paginize/a.a (Landroid/view/MotionEvent;)Z]
+  + Methodref [net/neevek/android/lib/paginize/a.a (Ljava/lang/Object;)V]
+  + Methodref [net/neevek/android/lib/paginize/a.a (Ljava/lang/Runnable;J)Z]
+  + Methodref [net/neevek/android/lib/paginize/a.a (Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;Z)Z]
+  + Methodref [net/neevek/android/lib/paginize/a.b ()Ljava/lang/Object;]
+  + Methodref [net/neevek/android/lib/paginize/a.b (ILandroid/view/KeyEvent;)Z]
+  + Methodref [net/neevek/android/lib/paginize/a.b (Landroid/os/Bundle;)V]
+  + Methodref [net/neevek/android/lib/paginize/a.c ()I]
+  + Methodref [net/neevek/android/lib/paginize/a.d ()Landroid/view/View;]
+  + Methodref [net/neevek/android/lib/paginize/a.e ()V]
+  + Methodref [net/neevek/android/lib/paginize/a.f ()V]
+  + Methodref [net/neevek/android/lib/paginize/a.g ()Z]
+  + Methodref [net/neevek/android/lib/paginize/a.h ()Z]
+  + Methodref [net/neevek/android/lib/paginize/a.i ()V]
+  + Methodref [net/neevek/android/lib/paginize/a.j ()V]
+  + Methodref [net/neevek/android/lib/paginize/d.<init> (Landroid/view/ViewGroup;Lnet/neevek/android/lib/paginize/anim/PageAnimator;)V]
+  + Methodref [net/neevek/android/lib/paginize/d.a (IZZ)V]
+  + Methodref [net/neevek/android/lib/paginize/d.a (Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;)V]
+  + Methodref [net/neevek/android/lib/paginize/d.a (Lnet/neevek/android/lib/paginize/a;ZZ)V]
+  + Methodref [net/neevek/android/lib/paginize/d.a (ZZ)V]
+  + Methodref [net/neevek/android/lib/paginize/d.f ()I]
+  + Methodref [net/neevek/android/lib/paginize/e.<init> (Lnet/neevek/android/lib/paginize/d;Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;)V]
+  + InterfaceMethodref [net/neevek/android/lib/paginize/anim/PageAnimator.a (Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;Z)Z]
+  + InterfaceMethodref [net/neevek/android/lib/paginize/anim/PageAnimator.c ()I]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Landroid/view/ViewGroup;Lnet/neevek/android/lib/paginize/anim/PageAnimator;)V]
+  + NameAndType [<init> (Lnet/neevek/android/lib/paginize/d;Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;)V]
+  + NameAndType [a ()Lnet/neevek/android/lib/paginize/b;]
+  + NameAndType [a (IILandroid/content/Intent;)V]
+  + NameAndType [a (ILandroid/view/KeyEvent;)Z]
+  + NameAndType [a (IZZ)V]
+  + NameAndType [a (Landroid/content/res/Configuration;)V]
+  + NameAndType [a (Landroid/os/Bundle;)V]
+  + NameAndType [a (Landroid/view/MotionEvent;)Z]
+  + NameAndType [a (Ljava/lang/Object;)V]
+  + NameAndType [a (Ljava/lang/Runnable;J)Z]
+  + NameAndType [a (Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;)V]
+  + NameAndType [a (Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;Z)Z]
+  + NameAndType [a (Lnet/neevek/android/lib/paginize/a;ZZ)V]
+  + NameAndType [a (ZZ)V]
+  + NameAndType [a Ljava/lang/String;]
+  + NameAndType [b ()Ljava/lang/Object;]
+  + NameAndType [b (ILandroid/view/KeyEvent;)Z]
+  + NameAndType [b (Landroid/os/Bundle;)V]
+  + NameAndType [b Lnet/neevek/android/lib/paginize/b;]
+  + NameAndType [b Z]
+  + NameAndType [c ()I]
+  + NameAndType [c Landroid/view/ViewGroup;]
+  + NameAndType [d ()Landroid/view/View;]
+  + NameAndType [d (Ljava/lang/String;Ljava/lang/String;)I]
+  + NameAndType [d Ljava/util/LinkedList;]
+  + NameAndType [e ()V]
+  + NameAndType [e Lnet/neevek/android/lib/paginize/a;]
+  + NameAndType [f ()I]
+  + NameAndType [f ()V]
+  + NameAndType [f Lnet/neevek/android/lib/paginize/anim/PageAnimator;]
+  + NameAndType [format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;]
+  + NameAndType [g ()Z]
+  + NameAndType [getLast ()Ljava/lang/Object;]
+  + NameAndType [getRepeatCount ()I]
+  + NameAndType [getSimpleName ()Ljava/lang/String;]
+  + NameAndType [h ()Z]
+  + NameAndType [i ()V]
+  + NameAndType [j ()V]
+  + NameAndType [removeLast ()Ljava/lang/Object;]
+  + NameAndType [removeView (Landroid/view/View;)V]
+  + NameAndType [setVisibility (I)V]
+  + NameAndType [size ()I]
+  + NameAndType [valueOf (I)Ljava/lang/Integer;]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/view/View;]
+  + Utf8 [()Ljava/lang/Object;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()Lnet/neevek/android/lib/paginize/anim/PageAnimator;]
+  + Utf8 [()Lnet/neevek/android/lib/paginize/b;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)Ljava/lang/Integer;]
+  + Utf8 [(I)V]
+  + Utf8 [(IILandroid/content/Intent;)V]
+  + Utf8 [(ILandroid/view/KeyEvent;)Z]
+  + Utf8 [(IZZ)V]
+  + Utf8 [(Landroid/content/res/Configuration;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/MotionEvent;)Z]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Landroid/view/ViewGroup;)V]
+  + Utf8 [(Landroid/view/ViewGroup;Lnet/neevek/android/lib/paginize/anim/PageAnimator;)V]
+  + Utf8 [(Ljava/lang/Object;)V]
+  + Utf8 [(Ljava/lang/Runnable;J)Z]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;]
+  + Utf8 [(Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;)V]
+  + Utf8 [(Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;Z)Z]
+  + Utf8 [(Lnet/neevek/android/lib/paginize/a;ZZ)V]
+  + Utf8 [(Lnet/neevek/android/lib/paginize/anim/PageAnimator;)V]
+  + Utf8 [(Lnet/neevek/android/lib/paginize/d;Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;)V]
+  + Utf8 [(ZZ)V]
+  + Utf8 [<init>]
+  + Utf8 [>>>> popPage, pagestack=%d, %s]
+  + Utf8 [Code]
+  + Utf8 [ConstantValue]
+  + Utf8 [Landroid/view/ViewGroup;]
+  + Utf8 [LineNumberTable]
+  + Utf8 [Ljava/lang/String;]
+  + Utf8 [Ljava/util/LinkedList;]
+  + Utf8 [Lnet/neevek/android/lib/paginize/a;]
+  + Utf8 [Lnet/neevek/android/lib/paginize/anim/PageAnimator;]
+  + Utf8 [Lnet/neevek/android/lib/paginize/b;]
+  + Utf8 [ProGuard]
+  + Utf8 [SourceFile]
+  + Utf8 [Z]
+  + Utf8 [a]
+  + Utf8 [android/util/Log]
+  + Utf8 [android/view/KeyEvent]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/ViewGroup]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [format]
+  + Utf8 [g]
+  + Utf8 [getLast]
+  + Utf8 [getRepeatCount]
+  + Utf8 [getSimpleName]
+  + Utf8 [h]
+  + Utf8 [i]
+  + Utf8 [j]
+  + Utf8 [java/lang/Class]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/util/LinkedList]
+  + Utf8 [net/neevek/android/lib/paginize/a]
+  + Utf8 [net/neevek/android/lib/paginize/anim/PageAnimator]
+  + Utf8 [net/neevek/android/lib/paginize/b]
+  + Utf8 [net/neevek/android/lib/paginize/d]
+  + Utf8 [net/neevek/android/lib/paginize/e]
+  + Utf8 [removeLast]
+  + Utf8 [removeView]
+  + Utf8 [setVisibility]
+  + Utf8 [size]
+  + Utf8 [valueOf]
+
+Fields (count = 6):
+  + Field:        a Ljava/lang/String;
+    Access flags: 0x12
+      = private final java.lang.String a
+  + Field:        b Z
+    Access flags: 0x12
+      = private final boolean b
+    Class member attributes (count = 1):
+    + Constant value attribute:
+    + Integer [1]
+  + Field:        c Landroid/view/ViewGroup;
+    Access flags: 0x2
+      = private android.view.ViewGroup c
+  + Field:        d Ljava/util/LinkedList;
+    Access flags: 0x2
+      = private java.util.LinkedList d
+  + Field:        e Lnet/neevek/android/lib/paginize/a;
+    Access flags: 0x2
+      = private net.neevek.android.lib.paginize.a e
+  + Field:        f Lnet/neevek/android/lib/paginize/anim/PageAnimator;
+    Access flags: 0x2
+      = private net.neevek.android.lib.paginize.anim.PageAnimator f
+
+Methods (count = 21):
+  - Method:       <init>(Landroid/view/ViewGroup;)V
+    Access flags: 0x1
+      = public d(android.view.ViewGroup)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 7, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] aconst_null
+      [3] invokespecial #56
+        + Methodref [net/neevek/android/lib/paginize/d.<init> (Landroid/view/ViewGroup;Lnet/neevek/android/lib/paginize/anim/PageAnimator;)V]
+      [6] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 2)
+        [0] -> line 61
+        [6] -> line 62
+  - Method:       <init>(Landroid/view/ViewGroup;Lnet/neevek/android/lib/paginize/anim/PageAnimator;)V
+    Access flags: 0x1
+      = public d(android.view.ViewGroup,net.neevek.android.lib.paginize.anim.PageAnimator)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 40, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] invokespecial #30
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] ldc #15
+        + Class [net/neevek/android/lib/paginize/d]
+      [7] invokevirtual #28
+        + Methodref [java/lang/Class.getSimpleName ()Ljava/lang/String;]
+      [10] putfield #18
+        + Fieldref [net/neevek/android/lib/paginize/d.a Ljava/lang/String;]
+      [13] aload_0 v0
+      [14] iconst_1
+      [15] putfield #19
+        + Fieldref [net/neevek/android/lib/paginize/d.b Z]
+      [18] aload_0 v0
+      [19] new #11
+        + Class [java/util/LinkedList]
+      [22] dup
+      [23] invokespecial #32
+        + Methodref [java/util/LinkedList.<init> ()V]
+      [26] putfield #21
+        + Fieldref [net/neevek/android/lib/paginize/d.d Ljava/util/LinkedList;]
+      [29] aload_0 v0
+      [30] aload_1 v1
+      [31] putfield #20
+        + Fieldref [net/neevek/android/lib/paginize/d.c Landroid/view/ViewGroup;]
+      [34] aload_0 v0
+      [35] aload_2 v2
+      [36] putfield #23
+        + Fieldref [net/neevek/android/lib/paginize/d.f Lnet/neevek/android/lib/paginize/anim/PageAnimator;]
+      [39] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 7)
+        [0] -> line 64
+        [4] -> line 46
+        [13] -> line 47
+        [18] -> line 52
+        [29] -> line 65
+        [34] -> line 66
+        [39] -> line 67
+  + Method:       a(Lnet/neevek/android/lib/paginize/anim/PageAnimator;)V
+    Access flags: 0x1
+      = public void a(net.neevek.android.lib.paginize.anim.PageAnimator)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #23
+        + Fieldref [net/neevek/android/lib/paginize/d.f Lnet/neevek/android/lib/paginize/anim/PageAnimator;]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 2)
+        [0] -> line 70
+        [5] -> line 71
+  + Method:       a()Lnet/neevek/android/lib/paginize/anim/PageAnimator;
+    Access flags: 0x1
+      = public net.neevek.android.lib.paginize.anim.PageAnimator a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #23
+        + Fieldref [net/neevek/android/lib/paginize/d.f Lnet/neevek/android/lib/paginize/anim/PageAnimator;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 74
+  + Method:       a(ZZ)V
+    Access flags: 0x1
+      = public void a(boolean,boolean)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 8, locals = 3, stack = 4):
+      [0] aload_0 v0
+      [1] iconst_1
+      [2] iload_1 v1
+      [3] iload_2 v2
+      [4] invokevirtual #57
+        + Methodref [net/neevek/android/lib/paginize/d.a (IZZ)V]
+      [7] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 2)
+        [0] -> line 152
+        [7] -> line 153
+  + Method:       a(IZZ)V
+    Access flags: 0x1
+      = public void a(int,boolean,boolean)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 118, locals = 6, stack = 6):
+      [0] iload_1 v1
+      [1] ifle +13 (target=14)
+      [4] aload_0 v0
+      [5] getfield #21
+        + Fieldref [net/neevek/android/lib/paginize/d.d Ljava/util/LinkedList;]
+      [8] invokevirtual #35
+        + Methodref [java/util/LinkedList.size ()I]
+      [11] ifgt +4 (target=15)
+      [14] return
+      [15] aload_0 v0
+      [16] getfield #21
+        + Fieldref [net/neevek/android/lib/paginize/d.d Ljava/util/LinkedList;]
+      [19] invokevirtual #34
+        + Methodref [java/util/LinkedList.removeLast ()Ljava/lang/Object;]
+      [22] checkcast #12
+        + Class [net/neevek/android/lib/paginize/a]
+      [25] astore v4
+      [27] iinc v1, -1
+      [30] iinc v1, -1
+      [33] iload_1 v1
+      [34] iflt +75 (target=109)
+      [37] aload_0 v0
+      [38] getfield #21
+        + Fieldref [net/neevek/android/lib/paginize/d.d Ljava/util/LinkedList;]
+      [41] invokevirtual #34
+        + Methodref [java/util/LinkedList.removeLast ()Ljava/lang/Object;]
+      [44] checkcast #12
+        + Class [net/neevek/android/lib/paginize/a]
+      [47] astore v5
+      [49] aload_0 v0
+      [50] getfield #20
+        + Fieldref [net/neevek/android/lib/paginize/d.c Landroid/view/ViewGroup;]
+      [53] aload v5
+      [55] invokevirtual #49
+        + Methodref [net/neevek/android/lib/paginize/a.d ()Landroid/view/View;]
+      [58] invokevirtual #27
+        + Methodref [android/view/ViewGroup.removeView (Landroid/view/View;)V]
+      [61] aload v5
+      [63] invokevirtual #50
+        + Methodref [net/neevek/android/lib/paginize/a.e ()V]
+      [66] aload v5
+      [68] invokevirtual #51
+        + Methodref [net/neevek/android/lib/paginize/a.f ()V]
+      [71] aload_0 v0
+      [72] getfield #18
+        + Fieldref [net/neevek/android/lib/paginize/d.a Ljava/lang/String;]
+      [75] ldc #2
+        + String [>>>> popPage, pagestack=%d, %s]
+      [77] iconst_2
+      [78] anewarray #9
+        + Class [java/lang/Object]
+      [81] dup
+      [82] iconst_0
+      [83] aload_0 v0
+      [84] getfield #21
+        + Fieldref [net/neevek/android/lib/paginize/d.d Ljava/util/LinkedList;]
+      [87] invokevirtual #35
+        + Methodref [java/util/LinkedList.size ()I]
+      [90] invokestatic #29
+        + Methodref [java/lang/Integer.valueOf (I)Ljava/lang/Integer;]
+      [93] aastore
+      [94] dup
+      [95] iconst_1
+      [96] aload v5
+      [98] aastore
+      [99] invokestatic #31
+        + Methodref [java/lang/String.format (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;]
+      [102] invokestatic #24
+        + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
+      [105] pop
+      [106] goto -76 (target=30)
+      [109] aload_0 v0
+      [110] aload v4
+      [112] iload_2 v2
+      [113] iload_3 v3
+      [114] invokespecial #59
+        + Methodref [net/neevek/android/lib/paginize/d.a (Lnet/neevek/android/lib/paginize/a;ZZ)V]
+      [117] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 13)
+        [0] -> line 156
+        [14] -> line 157
+        [15] -> line 160
+        [27] -> line 161
+        [30] -> line 163
+        [37] -> line 164
+        [49] -> line 165
+        [61] -> line 166
+        [66] -> line 167
+        [71] -> line 170
+        [106] -> line 172
+        [109] -> line 174
+        [117] -> line 175
+  + Method:       a(Lnet/neevek/android/lib/paginize/a;ZZ)V
+    Access flags: 0x2
+      = private void a(net.neevek.android.lib.paginize.a,boolean,boolean)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 177, locals = 6, stack = 6):
+      [0] aload_0 v0
+      [1] getfield #21
+        + Fieldref [net/neevek/android/lib/paginize/d.d Ljava/util/LinkedList;]
+      [4] invokevirtual #35
+        + Methodref [java/util/LinkedList.size ()I]
+      [7] ifle +63 (target=70)
+      [10] aload_0 v0
+      [11] getfield #21
+        + Fieldref [net/neevek/android/lib/paginize/d.d Ljava/util/LinkedList;]
+      [14] invokevirtual #33
+        + Methodref [java/util/LinkedList.getLast ()Ljava/lang/Object;]
+      [17] checkcast #12
+        + Class [net/neevek/android/lib/paginize/a]
+      [20] astore v4
+      [22] iload_2 v2
+      [23] ifeq +35 (target=58)
+      [26] aload_0 v0
+      [27] getfield #23
+        + Fieldref [net/neevek/android/lib/paginize/d.f Lnet/neevek/android/lib/paginize/anim/PageAnimator;]
+      [30] ifnull +28 (target=58)
+      [33] aload_1 v1
+      [34] aload_1 v1
+      [35] aload v4
+      [37] iload_3 v3
+      [38] invokevirtual #44
+        + Methodref [net/neevek/android/lib/paginize/a.a (Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;Z)Z]
+      [41] ifne +17 (target=58)
+      [44] aload_0 v0
+      [45] getfield #23
+        + Fieldref [net/neevek/android/lib/paginize/d.f Lnet/neevek/android/lib/paginize/anim/PageAnimator;]
+      [48] aload_1 v1
+      [49] aload v4
+      [51] iload_3 v3
+      [52] invokeinterface #63, 1024
+        + InterfaceMethodref [net/neevek/android/lib/paginize/anim/PageAnimator.a (Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;Z)Z]
+      [57] pop
+      [58] aload v4
+      [60] invokevirtual #49
+        + Methodref [net/neevek/android/lib/paginize/a.d ()Landroid/view/View;]
+      [63] iconst_0
+      [64] invokevirtual #26
+        + Methodref [android/view/View.setVisibility (I)V]
+      [67] goto +40 (target=107)
+      [70] aconst_null
+      [71] astore v4
+      [73] iload_2 v2
+      [74] ifeq +33 (target=107)
+      [77] aload_0 v0
+      [78] getfield #23
+        + Fieldref [net/neevek/android/lib/paginize/d.f Lnet/neevek/android/lib/paginize/anim/PageAnimator;]
+      [81] ifnull +26 (target=107)
+      [84] aload_1 v1
+      [85] aload_1 v1
+      [86] aconst_null
+      [87] iload_3 v3
+      [88] invokevirtual #44
+        + Methodref [net/neevek/android/lib/paginize/a.a (Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;Z)Z]
+      [91] ifne +16 (target=107)
+      [94] aload_0 v0
+      [95] getfield #23
+        + Fieldref [net/neevek/android/lib/paginize/d.f Lnet/neevek/android/lib/paginize/anim/PageAnimator;]
+      [98] aload_1 v1
+      [99] aconst_null
+      [100] iload_3 v3
+      [101] invokeinterface #63, 1024
+        + InterfaceMethodref [net/neevek/android/lib/paginize/anim/PageAnimator.a (Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;Z)Z]
+      [106] pop
+      [107] aload_1 v1
+      [108] invokevirtual #48
+        + Methodref [net/neevek/android/lib/paginize/a.c ()I]
+      [111] istore v5
+      [113] iload v5
+      [115] iconst_m1
+      [116] ificmpne +21 (target=137)
+      [119] aload_0 v0
+      [120] getfield #23
+        + Fieldref [net/neevek/android/lib/paginize/d.f Lnet/neevek/android/lib/paginize/anim/PageAnimator;]
+      [123] ifnull +14 (target=137)
+      [126] aload_0 v0
+      [127] getfield #23
+        + Fieldref [net/neevek/android/lib/paginize/d.f Lnet/neevek/android/lib/paginize/anim/PageAnimator;]
+      [130] invokeinterface #64, 256
+        + InterfaceMethodref [net/neevek/android/lib/paginize/anim/PageAnimator.c ()I]
+      [135] istore v5
+      [137] iload_2 v2
+      [138] ifeq +31 (target=169)
+      [141] iload v5
+      [143] iconst_m1
+      [144] ificmpeq +25 (target=169)
+      [147] aload_1 v1
+      [148] new #16
+        + Class [net/neevek/android/lib/paginize/e]
+      [151] dup
+      [152] aload_0 v0
+      [153] aload_1 v1
+      [154] aload v4
+      [156] invokespecial #62
+        + Methodref [net/neevek/android/lib/paginize/e.<init> (Lnet/neevek/android/lib/paginize/d;Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;)V]
+      [159] iload v5
+      [161] i2l
+      [162] invokevirtual #43
+        + Methodref [net/neevek/android/lib/paginize/a.a (Ljava/lang/Runnable;J)Z]
+      [165] pop
+      [166] goto +10 (target=176)
+      [169] aload_0 v0
+      [170] aload_1 v1
+      [171] aload v4
+      [173] invokespecial #58
+        + Methodref [net/neevek/android/lib/paginize/d.a (Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;)V]
+      [176] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 15)
+        [0] -> line 309
+        [10] -> line 310
+        [22] -> line 312
+        [44] -> line 313
+        [58] -> line 316
+        [70] -> line 318
+        [73] -> line 320
+        [94] -> line 321
+        [107] -> line 325
+        [113] -> line 326
+        [126] -> line 327
+        [137] -> line 329
+        [147] -> line 330
+        [169] -> line 338
+        [176] -> line 340
+  + Method:       a(Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;)V
+    Access flags: 0x2
+      = private void a(net.neevek.android.lib.paginize.a,net.neevek.android.lib.paginize.a)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 37, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #20
+        + Fieldref [net/neevek/android/lib/paginize/d.c Landroid/view/ViewGroup;]
+      [4] aload_1 v1
+      [5] invokevirtual #49
+        + Methodref [net/neevek/android/lib/paginize/a.d ()Landroid/view/View;]
+      [8] invokevirtual #27
+        + Methodref [android/view/ViewGroup.removeView (Landroid/view/View;)V]
+      [11] aload_1 v1
+      [12] invokevirtual #50
+        + Methodref [net/neevek/android/lib/paginize/a.e ()V]
+      [15] aload_1 v1
+      [16] invokevirtual #51
+        + Methodref [net/neevek/android/lib/paginize/a.f ()V]
+      [19] aload_0 v0
+      [20] aload_2 v2
+      [21] putfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [24] aload_2 v2
+      [25] ifnull +11 (target=36)
+      [28] aload_2 v2
+      [29] aload_1 v1
+      [30] invokevirtual #45
+        + Methodref [net/neevek/android/lib/paginize/a.b ()Ljava/lang/Object;]
+      [33] invokevirtual #42
+        + Methodref [net/neevek/android/lib/paginize/a.a (Ljava/lang/Object;)V]
+      [36] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 7)
+        [0] -> line 343
+        [11] -> line 344
+        [15] -> line 345
+        [19] -> line 346
+        [24] -> line 348
+        [28] -> line 349
+        [36] -> line 351
+  + Method:       b()Z
+    Access flags: 0x1
+      = public boolean b()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 61, locals = 1, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [4] ifnonnull +5 (target=9)
+      [7] iconst_0
+      [8] ireturn
+      [9] aload_0 v0
+      [10] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [13] invokevirtual #52
+        + Methodref [net/neevek/android/lib/paginize/a.g ()Z]
+      [16] ifeq +5 (target=21)
+      [19] iconst_1
+      [20] ireturn
+      [21] aload_0 v0
+      [22] invokevirtual #61
+        + Methodref [net/neevek/android/lib/paginize/d.f ()I]
+      [25] iconst_1
+      [26] ificmple +33 (target=59)
+      [29] aload_0 v0
+      [30] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [33] invokevirtual #36
+        + Methodref [net/neevek/android/lib/paginize/a.a ()Lnet/neevek/android/lib/paginize/b;]
+      [36] getstatic #17
+        + Fieldref [net/neevek/android/lib/paginize/b.b Lnet/neevek/android/lib/paginize/b;]
+      [39] ifacmpne +12 (target=51)
+      [42] aload_0 v0
+      [43] iconst_0
+      [44] iconst_0
+      [45] invokevirtual #60
+        + Methodref [net/neevek/android/lib/paginize/d.a (ZZ)V]
+      [48] goto +9 (target=57)
+      [51] aload_0 v0
+      [52] iconst_1
+      [53] iconst_1
+      [54] invokevirtual #60
+        + Methodref [net/neevek/android/lib/paginize/d.a (ZZ)V]
+      [57] iconst_1
+      [58] ireturn
+      [59] iconst_0
+      [60] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 10)
+        [0] -> line 372
+        [7] -> line 373
+        [9] -> line 376
+        [19] -> line 377
+        [21] -> line 381
+        [29] -> line 382
+        [42] -> line 383
+        [51] -> line 386
+        [57] -> line 389
+        [59] -> line 392
+  + Method:       a(IILandroid/content/Intent;)V
+    Access flags: 0x1
+      = public void a(int,int,android.content.Intent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 18, locals = 4, stack = 4):
+      [0] aload_0 v0
+      [1] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [4] ifnull +13 (target=17)
+      [7] aload_0 v0
+      [8] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [11] iload_1 v1
+      [12] iload_2 v2
+      [13] aload_3 v3
+      [14] invokevirtual #37
+        + Methodref [net/neevek/android/lib/paginize/a.a (IILandroid/content/Intent;)V]
+      [17] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 396
+        [7] -> line 397
+        [17] -> line 399
+  + Method:       c()V
+    Access flags: 0x1
+      = public void c()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [4] ifnull +10 (target=14)
+      [7] aload_0 v0
+      [8] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [11] invokevirtual #54
+        + Methodref [net/neevek/android/lib/paginize/a.i ()V]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 402
+        [7] -> line 403
+        [14] -> line 405
+  + Method:       d()V
+    Access flags: 0x1
+      = public void d()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [4] ifnull +10 (target=14)
+      [7] aload_0 v0
+      [8] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [11] invokevirtual #55
+        + Methodref [net/neevek/android/lib/paginize/a.j ()V]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 408
+        [7] -> line 409
+        [14] -> line 411
+  + Method:       e()V
+    Access flags: 0x1
+      = public void e()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [4] ifnull +10 (target=14)
+      [7] aload_0 v0
+      [8] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [11] invokevirtual #51
+        + Methodref [net/neevek/android/lib/paginize/a.f ()V]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 414
+        [7] -> line 416
+        [14] -> line 418
+  + Method:       a(ILandroid/view/KeyEvent;)Z
+    Access flags: 0x1
+      = public boolean a(int,android.view.KeyEvent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 40, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [4] ifnull +34 (target=38)
+      [7] iload_1 v1
+      [8] bipush 82
+      [10] ificmpne +18 (target=28)
+      [13] aload_2 v2
+      [14] invokevirtual #25
+        + Methodref [android/view/KeyEvent.getRepeatCount ()I]
+      [17] ifne +11 (target=28)
+      [20] aload_0 v0
+      [21] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [24] invokevirtual #53
+        + Methodref [net/neevek/android/lib/paginize/a.h ()Z]
+      [27] ireturn
+      [28] aload_0 v0
+      [29] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [32] iload_1 v1
+      [33] aload_2 v2
+      [34] invokevirtual #38
+        + Methodref [net/neevek/android/lib/paginize/a.a (ILandroid/view/KeyEvent;)Z]
+      [37] ireturn
+      [38] iconst_0
+      [39] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 5)
+        [0] -> line 421
+        [7] -> line 422
+        [20] -> line 423
+        [28] -> line 426
+        [38] -> line 429
+  + Method:       b(ILandroid/view/KeyEvent;)Z
+    Access flags: 0x1
+      = public boolean b(int,android.view.KeyEvent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 19, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [4] ifnull +13 (target=17)
+      [7] aload_0 v0
+      [8] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [11] iload_1 v1
+      [12] aload_2 v2
+      [13] invokevirtual #46
+        + Methodref [net/neevek/android/lib/paginize/a.b (ILandroid/view/KeyEvent;)Z]
+      [16] ireturn
+      [17] iconst_0
+      [18] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 433
+        [7] -> line 434
+        [17] -> line 436
+  + Method:       a(Landroid/view/MotionEvent;)Z
+    Access flags: 0x1
+      = public boolean a(android.view.MotionEvent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 18, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [4] ifnull +12 (target=16)
+      [7] aload_0 v0
+      [8] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [11] aload_1 v1
+      [12] invokevirtual #41
+        + Methodref [net/neevek/android/lib/paginize/a.a (Landroid/view/MotionEvent;)Z]
+      [15] ireturn
+      [16] iconst_0
+      [17] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 440
+        [7] -> line 441
+        [16] -> line 443
+  + Method:       a(Landroid/content/res/Configuration;)V
+    Access flags: 0x1
+      = public void a(android.content.res.Configuration)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 16, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [4] ifnull +11 (target=15)
+      [7] aload_0 v0
+      [8] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [11] aload_1 v1
+      [12] invokevirtual #39
+        + Methodref [net/neevek/android/lib/paginize/a.a (Landroid/content/res/Configuration;)V]
+      [15] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 447
+        [7] -> line 448
+        [15] -> line 450
+  + Method:       a(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void a(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 16, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [4] ifnull +11 (target=15)
+      [7] aload_0 v0
+      [8] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [11] aload_1 v1
+      [12] invokevirtual #40
+        + Methodref [net/neevek/android/lib/paginize/a.a (Landroid/os/Bundle;)V]
+      [15] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 453
+        [7] -> line 454
+        [15] -> line 456
+  + Method:       b(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void b(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 16, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [4] ifnull +11 (target=15)
+      [7] aload_0 v0
+      [8] getfield #22
+        + Fieldref [net/neevek/android/lib/paginize/d.e Lnet/neevek/android/lib/paginize/a;]
+      [11] aload_1 v1
+      [12] invokevirtual #47
+        + Methodref [net/neevek/android/lib/paginize/a.b (Landroid/os/Bundle;)V]
+      [15] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 459
+        [7] -> line 460
+        [15] -> line 462
+  + Method:       f()I
+    Access flags: 0x1
+      = public int f()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 8, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #21
+        + Fieldref [net/neevek/android/lib/paginize/d.d Ljava/util/LinkedList;]
+      [4] invokevirtual #35
+        + Methodref [java/util/LinkedList.size ()I]
+      [7] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 469
+  + Method:       a(Lnet/neevek/android/lib/paginize/d;Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;)V
+    Access flags: 0x1008
+      = static synthetic void a(net.neevek.android.lib.paginize.d,net.neevek.android.lib.paginize.a,net.neevek.android.lib.paginize.a)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 7, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] aload_2 v2
+      [3] invokespecial #58
+        + Methodref [net/neevek/android/lib/paginize/d.a (Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;)V]
+      [6] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 45
+
+Class file attributes (count = 1):
+  + Source file attribute:
+    + Utf8 [ProGuard]
+
+_____________________________________________________________________
++ Program class: net/neevek/android/lib/paginize/e
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x20
+    = class net.neevek.android.lib.paginize.e extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [java/lang/Runnable]
+
+Constant Pool (count = 32):
+  + Class [java/lang/Object]
+  + Class [java/lang/Runnable]
+  + Class [net/neevek/android/lib/paginize/d]
+  + Class [net/neevek/android/lib/paginize/e]
+  + Fieldref [net/neevek/android/lib/paginize/e.a Lnet/neevek/android/lib/paginize/a;]
+  + Fieldref [net/neevek/android/lib/paginize/e.b Lnet/neevek/android/lib/paginize/a;]
+  + Fieldref [net/neevek/android/lib/paginize/e.c Lnet/neevek/android/lib/paginize/d;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [net/neevek/android/lib/paginize/d.a (Lnet/neevek/android/lib/paginize/d;Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Lnet/neevek/android/lib/paginize/d;Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;)V]
+  + NameAndType [a Lnet/neevek/android/lib/paginize/a;]
+  + NameAndType [b Lnet/neevek/android/lib/paginize/a;]
+  + NameAndType [c Lnet/neevek/android/lib/paginize/d;]
+  + Utf8 [()V]
+  + Utf8 [(Lnet/neevek/android/lib/paginize/d;Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [LineNumberTable]
+  + Utf8 [Lnet/neevek/android/lib/paginize/a;]
+  + Utf8 [Lnet/neevek/android/lib/paginize/d;]
+  + Utf8 [ProGuard]
+  + Utf8 [SourceFile]
+  + Utf8 [a]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/Runnable]
+  + Utf8 [net/neevek/android/lib/paginize/d]
+  + Utf8 [net/neevek/android/lib/paginize/e]
+  + Utf8 [run]
+
+Fields (count = 3):
+  + Field:        a Lnet/neevek/android/lib/paginize/a;
+    Access flags: 0x1010
+      = final synthetic net.neevek.android.lib.paginize.a a
+  + Field:        b Lnet/neevek/android/lib/paginize/a;
+    Access flags: 0x1010
+      = final synthetic net.neevek.android.lib.paginize.a b
+  + Field:        c Lnet/neevek/android/lib/paginize/d;
+    Access flags: 0x1010
+      = final synthetic net.neevek.android.lib.paginize.d c
+
+Methods (count = 2):
+  - Method:       <init>(Lnet/neevek/android/lib/paginize/d;Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;)V
+    Access flags: 0x0
+      = e(net.neevek.android.lib.paginize.d,net.neevek.android.lib.paginize.a,net.neevek.android.lib.paginize.a)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 20, locals = 4, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #7
+        + Fieldref [net/neevek/android/lib/paginize/e.c Lnet/neevek/android/lib/paginize/d;]
+      [5] aload_0 v0
+      [6] aload_2 v2
+      [7] putfield #5
+        + Fieldref [net/neevek/android/lib/paginize/e.a Lnet/neevek/android/lib/paginize/a;]
+      [10] aload_0 v0
+      [11] aload_3 v3
+      [12] putfield #6
+        + Fieldref [net/neevek/android/lib/paginize/e.b Lnet/neevek/android/lib/paginize/a;]
+      [15] aload_0 v0
+      [16] invokespecial #8
+        + Methodref [java/lang/Object.<init> ()V]
+      [19] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 330
+  + Method:       run()V
+    Access flags: 0x1
+      = public void run()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 16, locals = 1, stack = 3):
+      [0] aload_0 v0
+      [1] getfield #7
+        + Fieldref [net/neevek/android/lib/paginize/e.c Lnet/neevek/android/lib/paginize/d;]
+      [4] aload_0 v0
+      [5] getfield #5
+        + Fieldref [net/neevek/android/lib/paginize/e.a Lnet/neevek/android/lib/paginize/a;]
+      [8] aload_0 v0
+      [9] getfield #6
+        + Fieldref [net/neevek/android/lib/paginize/e.b Lnet/neevek/android/lib/paginize/a;]
+      [12] invokestatic #9
+        + Methodref [net/neevek/android/lib/paginize/d.a (Lnet/neevek/android/lib/paginize/d;Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;)V]
+      [15] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 2)
+        [0] -> line 333
+        [15] -> line 334
+
+Class file attributes (count = 1):
+  + Source file attribute:
+    + Utf8 [ProGuard]
+
+_____________________________________________________________________
++ Program class: net/neevek/android/lib/paginize/f
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x421
+    = public abstract class net.neevek.android.lib.paginize.f extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 36):
+  + Class [android/view/View]
+  + Class [java/lang/Object]
+  + Class [net/neevek/android/lib/paginize/f]
+  + Fieldref [net/neevek/android/lib/paginize/f.a Landroid/view/View;]
+  + Methodref [android/view/View.postDelayed (Ljava/lang/Runnable;J)Z]
+  + NameAndType [a Landroid/view/View;]
+  + NameAndType [postDelayed (Ljava/lang/Runnable;J)Z]
+  + Utf8 [()Landroid/view/View;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(IILandroid/content/Intent;)V]
+  + Utf8 [(ILandroid/view/KeyEvent;)Z]
+  + Utf8 [(Landroid/content/res/Configuration;)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/MotionEvent;)Z]
+  + Utf8 [(Ljava/lang/Object;)V]
+  + Utf8 [(Ljava/lang/Runnable;J)Z]
+  + Utf8 [Code]
+  + Utf8 [Landroid/view/View;]
+  + Utf8 [LineNumberTable]
+  + Utf8 [ProGuard]
+  + Utf8 [SourceFile]
+  + Utf8 [a]
+  + Utf8 [android/view/View]
+  + Utf8 [b]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [g]
+  + Utf8 [h]
+  + Utf8 [i]
+  + Utf8 [j]
+  + Utf8 [java/lang/Object]
+  + Utf8 [net/neevek/android/lib/paginize/f]
+  + Utf8 [postDelayed]
+
+Fields (count = 1):
+  + Field:        a Landroid/view/View;
+    Access flags: 0x2
+      = private android.view.View a
+
+Methods (count = 16):
+  + Method:       d()Landroid/view/View;
+    Access flags: 0x1
+      = public android.view.View d()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #4
+        + Fieldref [net/neevek/android/lib/paginize/f.a Landroid/view/View;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 121
+  + Method:       a(Ljava/lang/Runnable;J)Z
+    Access flags: 0x1
+      = public boolean a(java.lang.Runnable,long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 19, locals = 4, stack = 4):
+      [0] aload_0 v0
+      [1] getfield #4
+        + Fieldref [net/neevek/android/lib/paginize/f.a Landroid/view/View;]
+      [4] ifnull +13 (target=17)
+      [7] aload_0 v0
+      [8] getfield #4
+        + Fieldref [net/neevek/android/lib/paginize/f.a Landroid/view/View;]
+      [11] aload_1 v1
+      [12] lload_2 v2
+      [13] invokevirtual #5
+        + Methodref [android/view/View.postDelayed (Ljava/lang/Runnable;J)Z]
+      [16] ireturn
+      [17] iconst_0
+      [18] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 156
+        [7] -> line 157
+        [17] -> line 159
+  + Method:       e()V
+    Access flags: 0x1
+      = public void e()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 1, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 174
+  + Method:       f()V
+    Access flags: 0x1
+      = public void f()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 1, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 188
+  + Method:       a(Ljava/lang/Object;)V
+    Access flags: 0x1
+      = public void a(java.lang.Object)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 2, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 204
+  + Method:       g()Z
+    Access flags: 0x1
+      = public boolean g()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 2, locals = 1, stack = 1):
+      [0] iconst_0
+      [1] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 213
+  + Method:       h()Z
+    Access flags: 0x1
+      = public boolean h()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 2, locals = 1, stack = 1):
+      [0] iconst_0
+      [1] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 223
+  + Method:       a(IILandroid/content/Intent;)V
+    Access flags: 0x1
+      = public void a(int,int,android.content.Intent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 4, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 232
+  + Method:       i()V
+    Access flags: 0x1
+      = public void i()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 1, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 240
+  + Method:       j()V
+    Access flags: 0x1
+      = public void j()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 1, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 248
+  + Method:       a(ILandroid/view/KeyEvent;)Z
+    Access flags: 0x1
+      = public boolean a(int,android.view.KeyEvent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 2, locals = 3, stack = 1):
+      [0] iconst_0
+      [1] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 255
+  + Method:       b(ILandroid/view/KeyEvent;)Z
+    Access flags: 0x1
+      = public boolean b(int,android.view.KeyEvent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 2, locals = 3, stack = 1):
+      [0] iconst_0
+      [1] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 262
+  + Method:       a(Landroid/view/MotionEvent;)Z
+    Access flags: 0x1
+      = public boolean a(android.view.MotionEvent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 2, locals = 2, stack = 1):
+      [0] iconst_0
+      [1] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 269
+  + Method:       a(Landroid/content/res/Configuration;)V
+    Access flags: 0x1
+      = public void a(android.content.res.Configuration)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 2, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 276
+  + Method:       a(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void a(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 2, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 283
+  + Method:       b(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void b(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 1, locals = 2, stack = 0):
+      [0] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 290
+
+Class file attributes (count = 1):
+  + Source file attribute:
+    + Utf8 [ProGuard]
+
+_____________________________________________________________________
++ Program class: net/neevek/android/lib/paginize/anim/PageAnimator
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x601
+    = public interface net.neevek.android.lib.paginize.anim.PageAnimator extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 11):
+  + Class [java/lang/Object]
+  + Class [net/neevek/android/lib/paginize/anim/PageAnimator]
+  + Utf8 [()I]
+  + Utf8 [(Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;Z)Z]
+  + Utf8 [ProGuard]
+  + Utf8 [SourceFile]
+  + Utf8 [a]
+  + Utf8 [c]
+  + Utf8 [java/lang/Object]
+  + Utf8 [net/neevek/android/lib/paginize/anim/PageAnimator]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  + Method:       a(Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;Z)Z
+    Access flags: 0x401
+      = public abstract boolean a(net.neevek.android.lib.paginize.a,net.neevek.android.lib.paginize.a,boolean)
+  + Method:       c()I
+    Access flags: 0x401
+      = public abstract int c()
+
+Class file attributes (count = 1):
+  + Source file attribute:
+    + Utf8 [ProGuard]
+
+_____________________________________________________________________
++ Program class: net/neevek/android/lib/paginize/anim/SlidePageAnimator
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x21
+    = public class net.neevek.android.lib.paginize.anim.SlidePageAnimator extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [net/neevek/android/lib/paginize/anim/PageAnimator]
+
+Constant Pool (count = 57):
+  + Float [-1.0]
+  + Class [android/view/View]
+  + Class [android/view/animation/Animation]
+  + Class [android/view/animation/TranslateAnimation]
+  + Class [java/lang/Object]
+  + Class [net/neevek/android/lib/paginize/a]
+  + Class [net/neevek/android/lib/paginize/anim/PageAnimator]
+  + Class [net/neevek/android/lib/paginize/anim/SlidePageAnimator]
+  + Long [250]
+  + Fieldref [net/neevek/android/lib/paginize/anim/SlidePageAnimator.a Landroid/view/animation/Animation;]
+  + Fieldref [net/neevek/android/lib/paginize/anim/SlidePageAnimator.b Landroid/view/animation/Animation;]
+  + Fieldref [net/neevek/android/lib/paginize/anim/SlidePageAnimator.c Landroid/view/animation/Animation;]
+  + Fieldref [net/neevek/android/lib/paginize/anim/SlidePageAnimator.d Landroid/view/animation/Animation;]
+  + Methodref [android/view/View.startAnimation (Landroid/view/animation/Animation;)V]
+  + Methodref [android/view/animation/Animation.setDuration (J)V]
+  + Methodref [android/view/animation/TranslateAnimation.<init> (IFIFIFIF)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [net/neevek/android/lib/paginize/a.d ()Landroid/view/View;]
+  + Methodref [net/neevek/android/lib/paginize/anim/SlidePageAnimator.a ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (IFIFIFIF)V]
+  + NameAndType [a ()V]
+  + NameAndType [a Landroid/view/animation/Animation;]
+  + NameAndType [b Landroid/view/animation/Animation;]
+  + NameAndType [c Landroid/view/animation/Animation;]
+  + NameAndType [d ()Landroid/view/View;]
+  + NameAndType [d Landroid/view/animation/Animation;]
+  + NameAndType [setDuration (J)V]
+  + NameAndType [startAnimation (Landroid/view/animation/Animation;)V]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/view/View;]
+  + Utf8 [()V]
+  + Utf8 [(IFIFIFIF)V]
+  + Utf8 [(J)V]
+  + Utf8 [(Landroid/view/animation/Animation;)V]
+  + Utf8 [(Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;Z)Z]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/view/animation/Animation;]
+  + Utf8 [LineNumberTable]
+  + Utf8 [ProGuard]
+  + Utf8 [SourceFile]
+  + Utf8 [a]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/animation/Animation]
+  + Utf8 [android/view/animation/TranslateAnimation]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [d]
+  + Utf8 [java/lang/Object]
+  + Utf8 [net/neevek/android/lib/paginize/a]
+  + Utf8 [net/neevek/android/lib/paginize/anim/PageAnimator]
+  + Utf8 [net/neevek/android/lib/paginize/anim/SlidePageAnimator]
+  + Utf8 [setDuration]
+  + Utf8 [startAnimation]
+
+Fields (count = 4):
+  + Field:        a Landroid/view/animation/Animation;
+    Access flags: 0x2
+      = private android.view.animation.Animation a
+  + Field:        b Landroid/view/animation/Animation;
+    Access flags: 0x2
+      = private android.view.animation.Animation b
+  + Field:        c Landroid/view/animation/Animation;
+    Access flags: 0x2
+      = private android.view.animation.Animation c
+  + Field:        d Landroid/view/animation/Animation;
+    Access flags: 0x2
+      = private android.view.animation.Animation d
+
+Methods (count = 4):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public SlidePageAnimator()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 9, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #18
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] invokespecial #20
+        + Methodref [net/neevek/android/lib/paginize/anim/SlidePageAnimator.a ()V]
+      [8] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 35
+        [4] -> line 36
+        [8] -> line 37
+  + Method:       a()V
+    Access flags: 0x2
+      = private void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 119, locals = 1, stack = 11):
+      [0] aload_0 v0
+      [1] new #4
+        + Class [android/view/animation/TranslateAnimation]
+      [4] dup
+      [5] iconst_1
+      [6] fconst_1
+      [7] iconst_1
+      [8] fconst_0
+      [9] iconst_1
+      [10] fconst_0
+      [11] iconst_1
+      [12] fconst_0
+      [13] invokespecial #17
+        + Methodref [android/view/animation/TranslateAnimation.<init> (IFIFIFIF)V]
+      [16] putfield #11
+        + Fieldref [net/neevek/android/lib/paginize/anim/SlidePageAnimator.a Landroid/view/animation/Animation;]
+      [19] aload_0 v0
+      [20] getfield #11
+        + Fieldref [net/neevek/android/lib/paginize/anim/SlidePageAnimator.a Landroid/view/animation/Animation;]
+      [23] ldc2_w #9
+        + Long [250]
+      [26] invokevirtual #16
+        + Methodref [android/view/animation/Animation.setDuration (J)V]
+      [29] aload_0 v0
+      [30] new #4
+        + Class [android/view/animation/TranslateAnimation]
+      [33] dup
+      [34] iconst_1
+      [35] fconst_0
+      [36] iconst_1
+      [37] fconst_1
+      [38] iconst_1
+      [39] fconst_0
+      [40] iconst_1
+      [41] fconst_0
+      [42] invokespecial #17
+        + Methodref [android/view/animation/TranslateAnimation.<init> (IFIFIFIF)V]
+      [45] putfield #14
+        + Fieldref [net/neevek/android/lib/paginize/anim/SlidePageAnimator.d Landroid/view/animation/Animation;]
+      [48] aload_0 v0
+      [49] getfield #14
+        + Fieldref [net/neevek/android/lib/paginize/anim/SlidePageAnimator.d Landroid/view/animation/Animation;]
+      [52] ldc2_w #9
+        + Long [250]
+      [55] invokevirtual #16
+        + Methodref [android/view/animation/Animation.setDuration (J)V]
+      [58] aload_0 v0
+      [59] new #4
+        + Class [android/view/animation/TranslateAnimation]
+      [62] dup
+      [63] iconst_1
+      [64] ldc #1
+        + Float [-1.0]
+      [66] iconst_1
+      [67] fconst_0
+      [68] iconst_1
+      [69] fconst_0
+      [70] iconst_1
+      [71] fconst_0
+      [72] invokespecial #17
+        + Methodref [android/view/animation/TranslateAnimation.<init> (IFIFIFIF)V]
+      [75] putfield #13
+        + Fieldref [net/neevek/android/lib/paginize/anim/SlidePageAnimator.c Landroid/view/animation/Animation;]
+      [78] aload_0 v0
+      [79] getfield #13
+        + Fieldref [net/neevek/android/lib/paginize/anim/SlidePageAnimator.c Landroid/view/animation/Animation;]
+      [82] ldc2_w #9
+        + Long [250]
+      [85] invokevirtual #16
+        + Methodref [android/view/animation/Animation.setDuration (J)V]
+      [88] aload_0 v0
+      [89] new #4
+        + Class [android/view/animation/TranslateAnimation]
+      [92] dup
+      [93] iconst_1
+      [94] fconst_0
+      [95] iconst_1
+      [96] ldc #1
+        + Float [-1.0]
+      [98] iconst_1
+      [99] fconst_0
+      [100] iconst_1
+      [101] fconst_0
+      [102] invokespecial #17
+        + Methodref [android/view/animation/TranslateAnimation.<init> (IFIFIFIF)V]
+      [105] putfield #12
+        + Fieldref [net/neevek/android/lib/paginize/anim/SlidePageAnimator.b Landroid/view/animation/Animation;]
+      [108] aload_0 v0
+      [109] getfield #12
+        + Fieldref [net/neevek/android/lib/paginize/anim/SlidePageAnimator.b Landroid/view/animation/Animation;]
+      [112] ldc2_w #9
+        + Long [250]
+      [115] invokevirtual #16
+        + Methodref [android/view/animation/Animation.setDuration (J)V]
+      [118] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 9)
+        [0] -> line 40
+        [19] -> line 42
+        [29] -> line 43
+        [48] -> line 45
+        [58] -> line 46
+        [78] -> line 48
+        [88] -> line 49
+        [108] -> line 51
+        [118] -> line 52
+  + Method:       a(Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;Z)Z
+    Access flags: 0x1
+      = public boolean a(net.neevek.android.lib.paginize.a,net.neevek.android.lib.paginize.a,boolean)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 46, locals = 4, stack = 2):
+      [0] iload_3 v3
+      [1] ifeq +17 (target=18)
+      [4] aload_1 v1
+      [5] invokevirtual #19
+        + Methodref [net/neevek/android/lib/paginize/a.d ()Landroid/view/View;]
+      [8] aload_0 v0
+      [9] getfield #14
+        + Fieldref [net/neevek/android/lib/paginize/anim/SlidePageAnimator.d Landroid/view/animation/Animation;]
+      [12] invokevirtual #15
+        + Methodref [android/view/View.startAnimation (Landroid/view/animation/Animation;)V]
+      [15] goto +14 (target=29)
+      [18] aload_1 v1
+      [19] invokevirtual #19
+        + Methodref [net/neevek/android/lib/paginize/a.d ()Landroid/view/View;]
+      [22] aload_0 v0
+      [23] getfield #12
+        + Fieldref [net/neevek/android/lib/paginize/anim/SlidePageAnimator.b Landroid/view/animation/Animation;]
+      [26] invokevirtual #15
+        + Methodref [android/view/View.startAnimation (Landroid/view/animation/Animation;)V]
+      [29] aload_2 v2
+      [30] ifnull +14 (target=44)
+      [33] aload_2 v2
+      [34] invokevirtual #19
+        + Methodref [net/neevek/android/lib/paginize/a.d ()Landroid/view/View;]
+      [37] aload_0 v0
+      [38] getfield #13
+        + Fieldref [net/neevek/android/lib/paginize/anim/SlidePageAnimator.c Landroid/view/animation/Animation;]
+      [41] invokevirtual #15
+        + Methodref [android/view/View.startAnimation (Landroid/view/animation/Animation;)V]
+      [44] iconst_1
+      [45] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 6)
+        [0] -> line 71
+        [4] -> line 72
+        [18] -> line 74
+        [29] -> line 77
+        [33] -> line 78
+        [44] -> line 81
+  + Method:       c()I
+    Access flags: 0x1
+      = public int c()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 4, locals = 1, stack = 1):
+      [0] sipush 250
+      [3] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 86
+
+Class file attributes (count = 1):
+  + Source file attribute:
+    + Utf8 [ProGuard]
+
+_____________________________________________________________________
++ Program class: net/neevek/android/lib/paginize/anim/ZoomPageAnimator
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x21
+    = public class net.neevek.android.lib.paginize.anim.ZoomPageAnimator extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [net/neevek/android/lib/paginize/anim/PageAnimator]
+
+Constant Pool (count = 66):
+  + Float [0.5]
+  + Float [1.2]
+  + Float [1.4]
+  + Class [android/view/View]
+  + Class [android/view/animation/AlphaAnimation]
+  + Class [android/view/animation/AnimationSet]
+  + Class [android/view/animation/ScaleAnimation]
+  + Class [java/lang/Object]
+  + Class [net/neevek/android/lib/paginize/a]
+  + Class [net/neevek/android/lib/paginize/anim/PageAnimator]
+  + Class [net/neevek/android/lib/paginize/anim/ZoomPageAnimator]
+  + Long [200]
+  + Fieldref [net/neevek/android/lib/paginize/anim/ZoomPageAnimator.a Landroid/view/animation/Animation;]
+  + Fieldref [net/neevek/android/lib/paginize/anim/ZoomPageAnimator.b Landroid/view/animation/Animation;]
+  + Methodref [android/view/View.startAnimation (Landroid/view/animation/Animation;)V]
+  + Methodref [android/view/animation/AlphaAnimation.<init> (FF)V]
+  + Methodref [android/view/animation/AnimationSet.<init> (Z)V]
+  + Methodref [android/view/animation/AnimationSet.addAnimation (Landroid/view/animation/Animation;)V]
+  + Methodref [android/view/animation/AnimationSet.setDuration (J)V]
+  + Methodref [android/view/animation/ScaleAnimation.<init> (FFFFIFIF)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [net/neevek/android/lib/paginize/a.d ()Landroid/view/View;]
+  + Methodref [net/neevek/android/lib/paginize/anim/ZoomPageAnimator.a ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (FF)V]
+  + NameAndType [<init> (FFFFIFIF)V]
+  + NameAndType [<init> (Z)V]
+  + NameAndType [a ()V]
+  + NameAndType [a Landroid/view/animation/Animation;]
+  + NameAndType [addAnimation (Landroid/view/animation/Animation;)V]
+  + NameAndType [b Landroid/view/animation/Animation;]
+  + NameAndType [d ()Landroid/view/View;]
+  + NameAndType [setDuration (J)V]
+  + NameAndType [startAnimation (Landroid/view/animation/Animation;)V]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/view/View;]
+  + Utf8 [()V]
+  + Utf8 [(FF)V]
+  + Utf8 [(FFFFIFIF)V]
+  + Utf8 [(J)V]
+  + Utf8 [(Landroid/view/animation/Animation;)V]
+  + Utf8 [(Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;Z)Z]
+  + Utf8 [(Z)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/view/animation/Animation;]
+  + Utf8 [LineNumberTable]
+  + Utf8 [ProGuard]
+  + Utf8 [SourceFile]
+  + Utf8 [a]
+  + Utf8 [addAnimation]
+  + Utf8 [android/view/View]
+  + Utf8 [android/view/animation/AlphaAnimation]
+  + Utf8 [android/view/animation/AnimationSet]
+  + Utf8 [android/view/animation/ScaleAnimation]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [d]
+  + Utf8 [java/lang/Object]
+  + Utf8 [net/neevek/android/lib/paginize/a]
+  + Utf8 [net/neevek/android/lib/paginize/anim/PageAnimator]
+  + Utf8 [net/neevek/android/lib/paginize/anim/ZoomPageAnimator]
+  + Utf8 [setDuration]
+  + Utf8 [startAnimation]
+
+Fields (count = 2):
+  + Field:        a Landroid/view/animation/Animation;
+    Access flags: 0x2
+      = private android.view.animation.Animation a
+  + Field:        b Landroid/view/animation/Animation;
+    Access flags: 0x2
+      = private android.view.animation.Animation b
+
+Methods (count = 4):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public ZoomPageAnimator()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 9, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #22
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] invokespecial #24
+        + Methodref [net/neevek/android/lib/paginize/anim/ZoomPageAnimator.a ()V]
+      [8] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 35
+        [4] -> line 36
+        [8] -> line 37
+  + Method:       a()V
+    Access flags: 0x2
+      = private void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 132, locals = 7, stack = 10):
+      [0] new #7
+        + Class [android/view/animation/ScaleAnimation]
+      [3] dup
+      [4] ldc #2
+        + Float [1.2]
+      [6] fconst_1
+      [7] ldc #2
+        + Float [1.2]
+      [9] fconst_1
+      [10] iconst_1
+      [11] ldc #1
+        + Float [0.5]
+      [13] iconst_1
+      [14] ldc #1
+        + Float [0.5]
+      [16] invokespecial #21
+        + Methodref [android/view/animation/ScaleAnimation.<init> (FFFFIFIF)V]
+      [19] astore_1 v1
+      [20] new #5
+        + Class [android/view/animation/AlphaAnimation]
+      [23] dup
+      [24] fconst_0
+      [25] fconst_1
+      [26] invokespecial #17
+        + Methodref [android/view/animation/AlphaAnimation.<init> (FF)V]
+      [29] astore_2 v2
+      [30] new #6
+        + Class [android/view/animation/AnimationSet]
+      [33] dup
+      [34] iconst_1
+      [35] invokespecial #18
+        + Methodref [android/view/animation/AnimationSet.<init> (Z)V]
+      [38] astore_3 v3
+      [39] aload_3 v3
+      [40] ldc2_w #12
+        + Long [200]
+      [43] invokevirtual #20
+        + Methodref [android/view/animation/AnimationSet.setDuration (J)V]
+      [46] aload_3 v3
+      [47] aload_1 v1
+      [48] invokevirtual #19
+        + Methodref [android/view/animation/AnimationSet.addAnimation (Landroid/view/animation/Animation;)V]
+      [51] aload_3 v3
+      [52] aload_2 v2
+      [53] invokevirtual #19
+        + Methodref [android/view/animation/AnimationSet.addAnimation (Landroid/view/animation/Animation;)V]
+      [56] aload_0 v0
+      [57] aload_3 v3
+      [58] putfield #14
+        + Fieldref [net/neevek/android/lib/paginize/anim/ZoomPageAnimator.a Landroid/view/animation/Animation;]
+      [61] new #7
+        + Class [android/view/animation/ScaleAnimation]
+      [64] dup
+      [65] fconst_1
+      [66] ldc #3
+        + Float [1.4]
+      [68] fconst_1
+      [69] ldc #3
+        + Float [1.4]
+      [71] iconst_1
+      [72] ldc #1
+        + Float [0.5]
+      [74] iconst_1
+      [75] ldc #1
+        + Float [0.5]
+      [77] invokespecial #21
+        + Methodref [android/view/animation/ScaleAnimation.<init> (FFFFIFIF)V]
+      [80] astore v4
+      [82] new #5
+        + Class [android/view/animation/AlphaAnimation]
+      [85] dup
+      [86] fconst_1
+      [87] fconst_0
+      [88] invokespecial #17
+        + Methodref [android/view/animation/AlphaAnimation.<init> (FF)V]
+      [91] astore v5
+      [93] new #6
+        + Class [android/view/animation/AnimationSet]
+      [96] dup
+      [97] iconst_1
+      [98] invokespecial #18
+        + Methodref [android/view/animation/AnimationSet.<init> (Z)V]
+      [101] astore v6
+      [103] aload v6
+      [105] ldc2_w #12
+        + Long [200]
+      [108] invokevirtual #20
+        + Methodref [android/view/animation/AnimationSet.setDuration (J)V]
+      [111] aload v6
+      [113] aload v4
+      [115] invokevirtual #19
+        + Methodref [android/view/animation/AnimationSet.addAnimation (Landroid/view/animation/Animation;)V]
+      [118] aload v6
+      [120] aload v5
+      [122] invokevirtual #19
+        + Methodref [android/view/animation/AnimationSet.addAnimation (Landroid/view/animation/Animation;)V]
+      [125] aload_0 v0
+      [126] aload v6
+      [128] putfield #15
+        + Fieldref [net/neevek/android/lib/paginize/anim/ZoomPageAnimator.b Landroid/view/animation/Animation;]
+      [131] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 15)
+        [0] -> line 40
+        [20] -> line 41
+        [30] -> line 42
+        [39] -> line 43
+        [46] -> line 44
+        [51] -> line 45
+        [56] -> line 46
+        [61] -> line 48
+        [82] -> line 49
+        [93] -> line 50
+        [103] -> line 51
+        [111] -> line 52
+        [118] -> line 53
+        [125] -> line 54
+        [131] -> line 55
+  + Method:       a(Lnet/neevek/android/lib/paginize/a;Lnet/neevek/android/lib/paginize/a;Z)Z
+    Access flags: 0x1
+      = public boolean a(net.neevek.android.lib.paginize.a,net.neevek.android.lib.paginize.a,boolean)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 13, locals = 4, stack = 2):
+      [0] aload_1 v1
+      [1] invokevirtual #23
+        + Methodref [net/neevek/android/lib/paginize/a.d ()Landroid/view/View;]
+      [4] aload_0 v0
+      [5] getfield #15
+        + Fieldref [net/neevek/android/lib/paginize/anim/ZoomPageAnimator.b Landroid/view/animation/Animation;]
+      [8] invokevirtual #16
+        + Methodref [android/view/View.startAnimation (Landroid/view/animation/Animation;)V]
+      [11] iconst_1
+      [12] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 2)
+        [0] -> line 66
+        [11] -> line 68
+  + Method:       c()I
+    Access flags: 0x1
+      = public int c()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 4, locals = 1, stack = 1):
+      [0] sipush 200
+      [3] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 1)
+        [0] -> line 73
+
+Class file attributes (count = 1):
+  + Source file attribute:
+    + Utf8 [ProGuard]
+
+_____________________________________________________________________
++ Program class: net/neevek/android/lib/paginize/annotation/a
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x2601
+    = @ public @interface net.neevek.android.lib.paginize.annotation.a extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [java/lang/annotation/Annotation]
+
+Constant Pool (count = 19):
+  + Class [java/lang/Object]
+  + Class [java/lang/annotation/Annotation]
+  + Class [net/neevek/android/lib/paginize/annotation/a]
+  + Utf8 [()Ljava/lang/Class;]
+  + Utf8 [Ljava/lang/annotation/ElementType;]
+  + Utf8 [Ljava/lang/annotation/Retention;]
+  + Utf8 [Ljava/lang/annotation/RetentionPolicy;]
+  + Utf8 [Ljava/lang/annotation/Target;]
+  + Utf8 [ProGuard]
+  + Utf8 [RUNTIME]
+  + Utf8 [RuntimeVisibleAnnotations]
+  + Utf8 [SourceFile]
+  + Utf8 [TYPE]
+  + Utf8 [a]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/annotation/Annotation]
+  + Utf8 [net/neevek/android/lib/paginize/annotation/a]
+  + Utf8 [value]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  + Method:       a()Ljava/lang/Class;
+    Access flags: 0x401
+      = public abstract java.lang.Class a()
+
+Class file attributes (count = 2):
+  + Runtime visible annotations attribute:
+    - Annotation [Ljava/lang/annotation/Target;]:
+      - Array element value [value]:
+        + Enum constant element value [(default), Ljava/lang/annotation/ElementType;, TYPE]
+    - Annotation [Ljava/lang/annotation/Retention;]:
+      - Enum constant element value [value, Ljava/lang/annotation/RetentionPolicy;, RUNTIME]
+  + Source file attribute:
+    + Utf8 [ProGuard]
+
+_____________________________________________________________________
++ Program class: net/neevek/android/lib/paginize/annotation/b
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x2601
+    = @ public @interface net.neevek.android.lib.paginize.annotation.b extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [java/lang/annotation/Annotation]
+
+Constant Pool (count = 25):
+  + Class [java/lang/Object]
+  + Class [java/lang/annotation/Annotation]
+  + Class [net/neevek/android/lib/paginize/annotation/b]
+  + Utf8 [()I]
+  + Utf8 [()Ljava/lang/Class;]
+  + Utf8 [()[Ljava/lang/Class;]
+  + Utf8 [AnnotationDefault]
+  + Utf8 [FIELD]
+  + Utf8 [Ljava/lang/annotation/ElementType;]
+  + Utf8 [Ljava/lang/annotation/Retention;]
+  + Utf8 [Ljava/lang/annotation/RetentionPolicy;]
+  + Utf8 [Ljava/lang/annotation/Target;]
+  + Utf8 [ProGuard]
+  + Utf8 [RUNTIME]
+  + Utf8 [RuntimeVisibleAnnotations]
+  + Utf8 [SourceFile]
+  + Utf8 [V]
+  + Utf8 [a]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/annotation/Annotation]
+  + Utf8 [net/neevek/android/lib/paginize/annotation/b]
+  + Utf8 [value]
+
+Fields (count = 0):
+
+Methods (count = 3):
+  + Method:       a()I
+    Access flags: 0x401
+      = public abstract int a()
+  + Method:       b()[Ljava/lang/Class;
+    Access flags: 0x401
+      = public abstract java.lang.Class[] b()
+    Class member attributes (count = 1):
+    + Annotation default attribute:
+      - Array element value [(default)]:
+  + Method:       c()Ljava/lang/Class;
+    Access flags: 0x401
+      = public abstract java.lang.Class c()
+    Class member attributes (count = 1):
+    + Annotation default attribute:
+      - Class element value [(default), V]
+
+Class file attributes (count = 2):
+  + Runtime visible annotations attribute:
+    - Annotation [Ljava/lang/annotation/Retention;]:
+      - Enum constant element value [value, Ljava/lang/annotation/RetentionPolicy;, RUNTIME]
+    - Annotation [Ljava/lang/annotation/Target;]:
+      - Array element value [value]:
+        + Enum constant element value [(default), Ljava/lang/annotation/ElementType;, FIELD]
+  + Source file attribute:
+    + Utf8 [ProGuard]
+
+_____________________________________________________________________
++ Program class: net/neevek/android/lib/paginize/exception/a
+  Superclass:    java/lang/RuntimeException
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x21
+    = public class net.neevek.android.lib.paginize.exception.a extends java.lang.RuntimeException
+
+Interfaces (count = 0):
+
+Constant Pool (count = 16):
+  + Class [java/lang/RuntimeException]
+  + Class [net/neevek/android/lib/paginize/exception/a]
+  + Methodref [java/lang/RuntimeException.<init> ()V]
+  + Methodref [java/lang/RuntimeException.<init> (Ljava/lang/Throwable;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/Throwable;)V]
+  + Utf8 [()V]
+  + Utf8 [(Ljava/lang/Throwable;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [LineNumberTable]
+  + Utf8 [ProGuard]
+  + Utf8 [SourceFile]
+  + Utf8 [java/lang/RuntimeException]
+  + Utf8 [net/neevek/android/lib/paginize/exception/a]
+
+Fields (count = 0):
+
+Methods (count = 2):
+  - Method:       <init>(Ljava/lang/Throwable;)V
+    Access flags: 0x1
+      = public a(java.lang.Throwable)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #4
+        + Methodref [java/lang/RuntimeException.<init> (Ljava/lang/Throwable;)V]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 2)
+        [0] -> line 33
+        [5] -> line 34
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #3
+        + Methodref [java/lang/RuntimeException.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 2)
+        [0] -> line 37
+        [4] -> line 38
+
+Class file attributes (count = 1):
+  + Source file attribute:
+    + Utf8 [ProGuard]
+
+_____________________________________________________________________
++ Program class: net/neevek/android/lib/paginize/exception/b
+  Superclass:    java/lang/RuntimeException
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x21
+    = public class net.neevek.android.lib.paginize.exception.b extends java.lang.RuntimeException
+
+Interfaces (count = 0):
+
+Constant Pool (count = 13):
+  + Class [java/lang/RuntimeException]
+  + Class [net/neevek/android/lib/paginize/exception/b]
+  + Methodref [java/lang/RuntimeException.<init> (Ljava/lang/String;)V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [LineNumberTable]
+  + Utf8 [ProGuard]
+  + Utf8 [SourceFile]
+  + Utf8 [java/lang/RuntimeException]
+  + Utf8 [net/neevek/android/lib/paginize/exception/b]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  - Method:       <init>(Ljava/lang/String;)V
+    Access flags: 0x1
+      = public b(java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #3
+        + Methodref [java/lang/RuntimeException.<init> (Ljava/lang/String;)V]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 2)
+        [0] -> line 31
+        [5] -> line 32
+
+Class file attributes (count = 1):
+  + Source file attribute:
+    + Utf8 [ProGuard]
+
+_____________________________________________________________________
++ Program class: net/neevek/android/lib/paginize/util/a
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x21
+    = public class net.neevek.android.lib.paginize.util.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 175):
+  + String [ does not implement ]
+  + String [ must contain a default constructor without arguments.]
+  + String [, you have to manually add the set-listener method to sSetListenerMethodMap.]
+  + String [.]
+  + String [@InjectView]
+  + String [No such method: ]
+  + String [The 'listener' field in ]
+  + String [addTextChangedListener]
+  + String [set]
+  + Class [android/text/TextWatcher]
+  + Class [java/lang/Class]
+  + Class [java/lang/IllegalArgumentException]
+  + Class [java/lang/NoSuchMethodException]
+  + Class [java/lang/Object]
+  + Class [java/lang/String]
+  + Class [java/lang/StringBuilder]
+  + Class [java/lang/Void]
+  + Class [java/lang/reflect/Constructor]
+  + Class [java/lang/reflect/Field]
+  + Class [java/lang/reflect/Method]
+  + Class [java/lang/reflect/Modifier]
+  + Class [java/util/HashMap]
+  + Class [java/util/Map]
+  + Class [net/neevek/android/lib/paginize/annotation/b]
+  + Class [net/neevek/android/lib/paginize/exception/b]
+  + Class [net/neevek/android/lib/paginize/util/a]
+  + Class [net/neevek/android/lib/paginize/util/b]
+  + Fieldref [java/lang/Void.TYPE Ljava/lang/Class;]
+  + Fieldref [net/neevek/android/lib/paginize/util/a.a Ljava/util/Map;]
+  + Methodref [java/lang/Class.getDeclaredConstructor ([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;]
+  + Methodref [java/lang/Class.getDeclaredFields ()[Ljava/lang/reflect/Field;]
+  + Methodref [java/lang/Class.getMethod (Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
+  + Methodref [java/lang/Class.getModifiers ()I]
+  + Methodref [java/lang/Class.getName ()Ljava/lang/String;]
+  + Methodref [java/lang/Class.getSimpleName ()Ljava/lang/String;]
+  + Methodref [java/lang/Class.isAssignableFrom (Ljava/lang/Class;)Z]
+  + Methodref [java/lang/IllegalArgumentException.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/NoSuchMethodException.<init> (Ljava/lang/String;)V]
+  + Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+  + Methodref [java/lang/String.lastIndexOf (I)I]
+  + Methodref [java/lang/String.substring (I)Ljava/lang/String;]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + Methodref [java/lang/reflect/Constructor.newInstance ([Ljava/lang/Object;)Ljava/lang/Object;]
+  + Methodref [java/lang/reflect/Constructor.setAccessible (Z)V]
+  + Methodref [java/lang/reflect/Field.getAnnotations ()[Ljava/lang/annotation/Annotation;]
+  + Methodref [java/lang/reflect/Field.set (Ljava/lang/Object;Ljava/lang/Object;)V]
+  + Methodref [java/lang/reflect/Field.setAccessible (Z)V]
+  + Methodref [java/lang/reflect/Method.invoke (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;]
+  + Methodref [java/lang/reflect/Modifier.isStatic (I)Z]
+  + Methodref [java/util/HashMap.<init> ()V]
+  + Methodref [net/neevek/android/lib/paginize/exception/b.<init> (Ljava/lang/String;)V]
+  + Methodref [net/neevek/android/lib/paginize/util/a.a (Landroid/view/View;[Ljava/lang/Class;Ljava/lang/Object;)V]
+  + Methodref [net/neevek/android/lib/paginize/util/a.a (Ljava/lang/Class;Ljava/lang/Object;Ljava/util/Map;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;]
+  + InterfaceMethodref [java/util/Map.get (Ljava/lang/Object;)Ljava/lang/Object;]
+  + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + InterfaceMethodref [net/neevek/android/lib/paginize/annotation/b.a ()I]
+  + InterfaceMethodref [net/neevek/android/lib/paginize/annotation/b.b ()[Ljava/lang/Class;]
+  + InterfaceMethodref [net/neevek/android/lib/paginize/annotation/b.c ()Ljava/lang/Class;]
+  + InterfaceMethodref [net/neevek/android/lib/paginize/util/b.a (I)Landroid/view/View;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [TYPE Ljava/lang/Class;]
+  + NameAndType [a ()I]
+  + NameAndType [a (I)Landroid/view/View;]
+  + NameAndType [a (Landroid/view/View;[Ljava/lang/Class;Ljava/lang/Object;)V]
+  + NameAndType [a (Ljava/lang/Class;Ljava/lang/Object;Ljava/util/Map;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;]
+  + NameAndType [a Ljava/util/Map;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b ()[Ljava/lang/Class;]
+  + NameAndType [c ()Ljava/lang/Class;]
+  + NameAndType [get (Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [getAnnotations ()[Ljava/lang/annotation/Annotation;]
+  + NameAndType [getClass ()Ljava/lang/Class;]
+  + NameAndType [getDeclaredConstructor ([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;]
+  + NameAndType [getDeclaredFields ()[Ljava/lang/reflect/Field;]
+  + NameAndType [getMethod (Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
+  + NameAndType [getModifiers ()I]
+  + NameAndType [getName ()Ljava/lang/String;]
+  + NameAndType [getSimpleName ()Ljava/lang/String;]
+  + NameAndType [invoke (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [isAssignableFrom (Ljava/lang/Class;)Z]
+  + NameAndType [isStatic (I)Z]
+  + NameAndType [lastIndexOf (I)I]
+  + NameAndType [newInstance ([Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + NameAndType [set (Ljava/lang/Object;Ljava/lang/Object;)V]
+  + NameAndType [setAccessible (Z)V]
+  + NameAndType [substring (I)Ljava/lang/String;]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [ does not implement ]
+  + Utf8 [ must contain a default constructor without arguments.]
+  + Utf8 [()I]
+  + Utf8 [()Ljava/lang/Class;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [()[Ljava/lang/Class;]
+  + Utf8 [()[Ljava/lang/annotation/Annotation;]
+  + Utf8 [()[Ljava/lang/reflect/Field;]
+  + Utf8 [(I)I]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)Ljava/lang/String;]
+  + Utf8 [(I)Z]
+  + Utf8 [(Landroid/view/View;[Ljava/lang/Class;Ljava/lang/Object;)V]
+  + Utf8 [(Ljava/lang/Class;)Z]
+  + Utf8 [(Ljava/lang/Class;Ljava/lang/Object;Ljava/util/Map;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/Class;Ljava/lang/Object;Lnet/neevek/android/lib/paginize/util/b;)V]
+  + Utf8 [(Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/Object;Ljava/lang/Object;)V]
+  + Utf8 [(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
+  + Utf8 [(Z)V]
+  + Utf8 [([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;]
+  + Utf8 [([Ljava/lang/Object;)Ljava/lang/Object;]
+  + Utf8 [, you have to manually add the set-listener method to sSetListenerMethodMap.]
+  + Utf8 [.]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [@InjectView]
+  + Utf8 [Code]
+  + Utf8 [LineNumberTable]
+  + Utf8 [Ljava/lang/Class;]
+  + Utf8 [Ljava/util/Map;]
+  + Utf8 [No such method: ]
+  + Utf8 [ProGuard]
+  + Utf8 [SourceFile]
+  + Utf8 [TYPE]
+  + Utf8 [The 'listener' field in ]
+  + Utf8 [a]
+  + Utf8 [addTextChangedListener]
+  + Utf8 [android/text/TextWatcher]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [get]
+  + Utf8 [getAnnotations]
+  + Utf8 [getClass]
+  + Utf8 [getDeclaredConstructor]
+  + Utf8 [getDeclaredFields]
+  + Utf8 [getMethod]
+  + Utf8 [getModifiers]
+  + Utf8 [getName]
+  + Utf8 [getSimpleName]
+  + Utf8 [invoke]
+  + Utf8 [isAssignableFrom]
+  + Utf8 [isStatic]
+  + Utf8 [java/lang/Class]
+  + Utf8 [java/lang/IllegalArgumentException]
+  + Utf8 [java/lang/NoSuchMethodException]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/String]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/lang/Void]
+  + Utf8 [java/lang/reflect/Constructor]
+  + Utf8 [java/lang/reflect/Field]
+  + Utf8 [java/lang/reflect/Method]
+  + Utf8 [java/lang/reflect/Modifier]
+  + Utf8 [java/util/HashMap]
+  + Utf8 [java/util/Map]
+  + Utf8 [lastIndexOf]
+  + Utf8 [net/neevek/android/lib/paginize/annotation/b]
+  + Utf8 [net/neevek/android/lib/paginize/exception/b]
+  + Utf8 [net/neevek/android/lib/paginize/util/a]
+  + Utf8 [net/neevek/android/lib/paginize/util/b]
+  + Utf8 [newInstance]
+  + Utf8 [put]
+  + Utf8 [set]
+  + Utf8 [setAccessible]
+  + Utf8 [substring]
+  + Utf8 [toString]
+
+Fields (count = 1):
+  + Field:        a Ljava/util/Map;
+    Access flags: 0xa
+      = private static java.util.Map a
+
+Methods (count = 4):
+  + Method:       a(Landroid/view/View;[Ljava/lang/Class;Ljava/lang/Object;)V
+    Access flags: 0xa
+      = private static void a(android.view.View,java.lang.Class[],java.lang.Object)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 247, locals = 7, stack = 6):
+      [0] iconst_0
+      [1] istore_3 v3
+      [2] iload_3 v3
+      [3] aload_1 v1
+      [4] arraylength
+      [5] ificmpge +241 (target=246)
+      [8] aload_1 v1
+      [9] iload_3 v3
+      [10] aaload
+      [11] astore v4
+      [13] aload v4
+      [15] aload_2 v2
+      [16] invokevirtual #39
+        + Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+      [19] invokevirtual #36
+        + Methodref [java/lang/Class.isAssignableFrom (Ljava/lang/Class;)Z]
+      [22] ifne +44 (target=66)
+      [25] new #25
+        + Class [net/neevek/android/lib/paginize/exception/b]
+      [28] dup
+      [29] new #16
+        + Class [java/lang/StringBuilder]
+      [32] dup
+      [33] invokespecial #42
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [36] aload_2 v2
+      [37] invokevirtual #39
+        + Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+      [40] invokevirtual #34
+        + Methodref [java/lang/Class.getName ()Ljava/lang/String;]
+      [43] invokevirtual #43
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [46] ldc #1
+        + String [ does not implement ]
+      [48] invokevirtual #43
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [51] aload v4
+      [53] invokevirtual #34
+        + Methodref [java/lang/Class.getName ()Ljava/lang/String;]
+      [56] invokevirtual #43
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [59] invokevirtual #44
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [62] invokespecial #53
+        + Methodref [net/neevek/android/lib/paginize/exception/b.<init> (Ljava/lang/String;)V]
+      [65] athrow
+      [66] getstatic #29
+        + Fieldref [net/neevek/android/lib/paginize/util/a.a Ljava/util/Map;]
+      [69] aload v4
+      [71] invokeinterface #56, 512
+        + InterfaceMethodref [java/util/Map.get (Ljava/lang/Object;)Ljava/lang/Object;]
+      [76] checkcast #15
+        + Class [java/lang/String]
+      [79] astore v5
+      [81] aload v5
+      [83] ifnonnull +71 (target=154)
+      [86] aload v4
+      [88] invokevirtual #35
+        + Methodref [java/lang/Class.getSimpleName ()Ljava/lang/String;]
+      [91] astore v5
+      [93] aload v5
+      [95] bipush 36
+      [97] invokevirtual #40
+        + Methodref [java/lang/String.lastIndexOf (I)I]
+      [100] istore v6
+      [102] iload v6
+      [104] iconst_m1
+      [105] ificmpeq +14 (target=119)
+      [108] aload v5
+      [110] iload v6
+      [112] iconst_1
+      [113] iadd
+      [114] invokevirtual #41
+        + Methodref [java/lang/String.substring (I)Ljava/lang/String;]
+      [117] astore v5
+      [119] new #16
+        + Class [java/lang/StringBuilder]
+      [122] dup
+      [123] invokespecial #42
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [126] ldc #9
+        + String [set]
+      [128] invokevirtual #43
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [131] aload v5
+      [133] invokevirtual #43
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [136] invokevirtual #44
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [139] astore v5
+      [141] getstatic #29
+        + Fieldref [net/neevek/android/lib/paginize/util/a.a Ljava/util/Map;]
+      [144] aload v4
+      [146] aload v5
+      [148] invokeinterface #57, 768
+        + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [153] pop
+      [154] aload_0 v0
+      [155] invokevirtual #39
+        + Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+      [158] aload v5
+      [160] iconst_1
+      [161] anewarray #11
+        + Class [java/lang/Class]
+      [164] dup
+      [165] iconst_0
+      [166] aload v4
+      [168] aastore
+      [169] invokevirtual #32
+        + Methodref [java/lang/Class.getMethod (Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
+      [172] astore v6
+      [174] aload v6
+      [176] aload_0 v0
+      [177] iconst_1
+      [178] anewarray #14
+        + Class [java/lang/Object]
+      [181] dup
+      [182] iconst_0
+      [183] aload_2 v2
+      [184] aastore
+      [185] invokevirtual #50
+        + Methodref [java/lang/reflect/Method.invoke (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;]
+      [188] pop
+      [189] goto +51 (target=240)
+      [192] astore v6
+      [194] new #13
+        + Class [java/lang/NoSuchMethodException]
+      [197] dup
+      [198] new #16
+        + Class [java/lang/StringBuilder]
+      [201] dup
+      [202] invokespecial #42
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [205] ldc #6
+        + String [No such method: ]
+      [207] invokevirtual #43
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [210] aload v4
+      [212] invokevirtual #35
+        + Methodref [java/lang/Class.getSimpleName ()Ljava/lang/String;]
+      [215] invokevirtual #43
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [218] ldc #4
+        + String [.]
+      [220] invokevirtual #43
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [223] aload v5
+      [225] invokevirtual #43
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [228] ldc #3
+        + String [, you have to manually add the set-listener method to sSetListenerMethodMap.]
+      [230] invokevirtual #43
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [233] invokevirtual #44
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [236] invokespecial #38
+        + Methodref [java/lang/NoSuchMethodException.<init> (Ljava/lang/String;)V]
+      [239] athrow
+      [240] iinc v3, 1
+      [243] goto -241 (target=2)
+      [246] return
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (154 -> 189: 192):
+      + Class [java/lang/NoSuchMethodException]
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 19)
+        [0] -> line 52
+        [8] -> line 53
+        [13] -> line 55
+        [25] -> line 56
+        [66] -> line 59
+        [81] -> line 60
+        [86] -> line 61
+        [93] -> line 65
+        [102] -> line 66
+        [108] -> line 67
+        [119] -> line 69
+        [141] -> line 71
+        [154] -> line 75
+        [174] -> line 76
+        [189] -> line 80
+        [192] -> line 77
+        [194] -> line 78
+        [240] -> line 52
+        [246] -> line 82
+  + Method:       a(Ljava/lang/Class;Ljava/lang/Object;Lnet/neevek/android/lib/paginize/util/b;)V
+    Access flags: 0x9
+      = public static void a(java.lang.Class,java.lang.Object,net.neevek.android.lib.paginize.util.b)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 197, locals = 14, stack = 5):
+      [0] aload_0 v0
+      [1] invokevirtual #31
+        + Methodref [java/lang/Class.getDeclaredFields ()[Ljava/lang/reflect/Field;]
+      [4] astore_3 v3
+      [5] new #22
+        + Class [java/util/HashMap]
+      [8] dup
+      [9] invokespecial #52
+        + Methodref [java/util/HashMap.<init> ()V]
+      [12] astore v4
+      [14] iconst_0
+      [15] istore v5
+      [17] iload v5
+      [19] aload_3 v3
+      [20] arraylength
+      [21] ificmpge +175 (target=196)
+      [24] aload_3 v3
+      [25] iload v5
+      [27] aaload
+      [28] astore v6
+      [30] aload v6
+      [32] invokevirtual #47
+        + Methodref [java/lang/reflect/Field.getAnnotations ()[Ljava/lang/annotation/Annotation;]
+      [35] astore v7
+      [37] aload v7
+      [39] ifnull +151 (target=190)
+      [42] aload v7
+      [44] arraylength
+      [45] ifne +6 (target=51)
+      [48] goto +142 (target=190)
+      [51] iconst_0
+      [52] istore v8
+      [54] iload v8
+      [56] aload v7
+      [58] arraylength
+      [59] ificmpge +131 (target=190)
+      [62] aload v7
+      [64] iload v8
+      [66] aaload
+      [67] astore v9
+      [69] ldc #24
+        + Class [net/neevek/android/lib/paginize/annotation/b]
+      [71] aload v9
+      [73] invokevirtual #39
+        + Methodref [java/lang/Object.getClass ()Ljava/lang/Class;]
+      [76] invokevirtual #36
+        + Methodref [java/lang/Class.isAssignableFrom (Ljava/lang/Class;)Z]
+      [79] ifne +6 (target=85)
+      [82] goto +102 (target=184)
+      [85] aload v9
+      [87] checkcast #24
+        + Class [net/neevek/android/lib/paginize/annotation/b]
+      [90] astore v10
+      [92] aload_2 v2
+      [93] aload v10
+      [95] invokeinterface #58, 256
+        + InterfaceMethodref [net/neevek/android/lib/paginize/annotation/b.a ()I]
+      [100] invokeinterface #61, 512
+        + InterfaceMethodref [net/neevek/android/lib/paginize/util/b.a (I)Landroid/view/View;]
+      [105] astore v11
+      [107] aload v6
+      [109] iconst_1
+      [110] invokevirtual #49
+        + Methodref [java/lang/reflect/Field.setAccessible (Z)V]
+      [113] aload v6
+      [115] aload_1 v1
+      [116] aload v11
+      [118] invokevirtual #48
+        + Methodref [java/lang/reflect/Field.set (Ljava/lang/Object;Ljava/lang/Object;)V]
+      [121] aload v10
+      [123] invokeinterface #59, 256
+        + InterfaceMethodref [net/neevek/android/lib/paginize/annotation/b.b ()[Ljava/lang/Class;]
+      [128] astore v12
+      [130] aload v12
+      [132] ifnull +52 (target=184)
+      [135] aload v12
+      [137] arraylength
+      [138] ifne +6 (target=144)
+      [141] goto +43 (target=184)
+      [144] aload_0 v0
+      [145] aload_1 v1
+      [146] aload v4
+      [148] aload v10
+      [150] invokeinterface #60, 256
+        + InterfaceMethodref [net/neevek/android/lib/paginize/annotation/b.c ()Ljava/lang/Class;]
+      [155] ldc #5
+        + String [@InjectView]
+      [157] invokestatic #55
+        + Methodref [net/neevek/android/lib/paginize/util/a.a (Ljava/lang/Class;Ljava/lang/Object;Ljava/util/Map;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;]
+      [160] astore v13
+      [162] aload v13
+      [164] ifnonnull +6 (target=170)
+      [167] aload_1 v1
+      [168] astore v13
+      [170] aload v11
+      [172] aload v10
+      [174] invokeinterface #59, 256
+        + InterfaceMethodref [net/neevek/android/lib/paginize/annotation/b.b ()[Ljava/lang/Class;]
+      [179] aload v13
+      [181] invokestatic #54
+        + Methodref [net/neevek/android/lib/paginize/util/a.a (Landroid/view/View;[Ljava/lang/Class;Ljava/lang/Object;)V]
+      [184] iinc v8, 1
+      [187] goto -133 (target=54)
+      [190] iinc v5, 1
+      [193] goto -176 (target=17)
+      [196] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 25)
+        [0] -> line 129
+        [5] -> line 131
+        [14] -> line 133
+        [24] -> line 134
+        [30] -> line 135
+        [37] -> line 137
+        [48] -> line 138
+        [51] -> line 141
+        [62] -> line 142
+        [69] -> line 144
+        [82] -> line 145
+        [85] -> line 148
+        [92] -> line 149
+        [107] -> line 150
+        [113] -> line 151
+        [121] -> line 153
+        [130] -> line 154
+        [141] -> line 155
+        [144] -> line 158
+        [162] -> line 159
+        [167] -> line 160
+        [170] -> line 162
+        [184] -> line 141
+        [190] -> line 133
+        [196] -> line 166
+  + Method:       a(Ljava/lang/Class;Ljava/lang/Object;Ljava/util/Map;Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;
+    Access flags: 0xa
+      = private static java.lang.Object a(java.lang.Class,java.lang.Object,java.util.Map,java.lang.Class,java.lang.String)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 157, locals = 8, stack = 5):
+      [0] aload_3 v3
+      [1] ifnull +10 (target=11)
+      [4] aload_3 v3
+      [5] getstatic #28
+        + Fieldref [java/lang/Void.TYPE Ljava/lang/Class;]
+      [8] ifacmpne +5 (target=13)
+      [11] aconst_null
+      [12] areturn
+      [13] aload_2 v2
+      [14] aload_3 v3
+      [15] invokeinterface #56, 512
+        + InterfaceMethodref [java/util/Map.get (Ljava/lang/Object;)Ljava/lang/Object;]
+      [20] astore v5
+      [22] aload v5
+      [24] ifnonnull +130 (target=154)
+      [27] aload_3 v3
+      [28] invokevirtual #33
+        + Methodref [java/lang/Class.getModifiers ()I]
+      [31] invokestatic #51
+        + Methodref [java/lang/reflect/Modifier.isStatic (I)Z]
+      [34] istore v6
+      [36] iload v6
+      [38] ifeq +33 (target=71)
+      [41] aload_3 v3
+      [42] iconst_0
+      [43] anewarray #11
+        + Class [java/lang/Class]
+      [46] invokevirtual #30
+        + Methodref [java/lang/Class.getDeclaredConstructor ([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;]
+      [49] astore v7
+      [51] aload v7
+      [53] iconst_1
+      [54] invokevirtual #46
+        + Methodref [java/lang/reflect/Constructor.setAccessible (Z)V]
+      [57] aload v7
+      [59] iconst_0
+      [60] anewarray #14
+        + Class [java/lang/Object]
+      [63] invokevirtual #45
+        + Methodref [java/lang/reflect/Constructor.newInstance ([Ljava/lang/Object;)Ljava/lang/Object;]
+      [66] astore v5
+      [68] goto +38 (target=106)
+      [71] aload_3 v3
+      [72] iconst_1
+      [73] anewarray #11
+        + Class [java/lang/Class]
+      [76] dup
+      [77] iconst_0
+      [78] aload_0 v0
+      [79] aastore
+      [80] invokevirtual #30
+        + Methodref [java/lang/Class.getDeclaredConstructor ([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;]
+      [83] astore v7
+      [85] aload v7
+      [87] iconst_1
+      [88] invokevirtual #46
+        + Methodref [java/lang/reflect/Constructor.setAccessible (Z)V]
+      [91] aload v7
+      [93] iconst_1
+      [94] anewarray #14
+        + Class [java/lang/Object]
+      [97] dup
+      [98] iconst_0
+      [99] aload_1 v1
+      [100] aastore
+      [101] invokevirtual #45
+        + Methodref [java/lang/reflect/Constructor.newInstance ([Ljava/lang/Object;)Ljava/lang/Object;]
+      [104] astore v5
+      [106] aload_2 v2
+      [107] aload_3 v3
+      [108] aload v5
+      [110] invokeinterface #57, 768
+        + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [115] pop
+      [116] goto +38 (target=154)
+      [119] astore v6
+      [121] new #12
+        + Class [java/lang/IllegalArgumentException]
+      [124] dup
+      [125] new #16
+        + Class [java/lang/StringBuilder]
+      [128] dup
+      [129] invokespecial #42
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [132] ldc #7
+        + String [The 'listener' field in ]
+      [134] invokevirtual #43
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [137] aload v4
+      [139] invokevirtual #43
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [142] ldc #2
+        + String [ must contain a default constructor without arguments.]
+      [144] invokevirtual #43
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [147] invokevirtual #44
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [150] invokespecial #37
+        + Methodref [java/lang/IllegalArgumentException.<init> (Ljava/lang/String;)V]
+      [153] athrow
+      [154] aload v5
+      [156] areturn
+      Code attribute exceptions (count = 1):
+      - ExceptionInfo (27 -> 116: 119):
+      + Class [java/lang/NoSuchMethodException]
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 18)
+        [0] -> line 175
+        [11] -> line 176
+        [13] -> line 179
+        [22] -> line 181
+        [27] -> line 183
+        [36] -> line 184
+        [41] -> line 185
+        [51] -> line 186
+        [57] -> line 187
+        [68] -> line 189
+        [71] -> line 190
+        [85] -> line 191
+        [91] -> line 192
+        [106] -> line 195
+        [116] -> line 198
+        [119] -> line 196
+        [121] -> line 197
+        [154] -> line 201
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 24, locals = 0, stack = 3):
+      [0] new #22
+        + Class [java/util/HashMap]
+      [3] dup
+      [4] invokespecial #52
+        + Methodref [java/util/HashMap.<init> ()V]
+      [7] putstatic #29
+        + Fieldref [net/neevek/android/lib/paginize/util/a.a Ljava/util/Map;]
+      [10] getstatic #29
+        + Fieldref [net/neevek/android/lib/paginize/util/a.a Ljava/util/Map;]
+      [13] ldc #10
+        + Class [android/text/TextWatcher]
+      [15] ldc #8
+        + String [addTextChangedListener]
+      [17] invokeinterface #57, 768
+        + InterfaceMethodref [java/util/Map.put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]
+      [22] pop
+      [23] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Line number table attribute (count = 3)
+        [0] -> line 43
+        [10] -> line 46
+        [23] -> line 47
+
+Class file attributes (count = 1):
+  + Source file attribute:
+    + Utf8 [ProGuard]
+
+_____________________________________________________________________
++ Program class: net/neevek/android/lib/paginize/util/b
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+    = target 1.7
+  Access flags:  0x601
+    = public interface net.neevek.android.lib.paginize.util.b extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 9):
+  + Class [java/lang/Object]
+  + Class [net/neevek/android/lib/paginize/util/b]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [ProGuard]
+  + Utf8 [SourceFile]
+  + Utf8 [a]
+  + Utf8 [java/lang/Object]
+  + Utf8 [net/neevek/android/lib/paginize/util/b]
+
+Fields (count = 0):
+
+Methods (count = 1):
+  + Method:       a(I)Landroid/view/View;
+    Access flags: 0x401
+      = public abstract android.view.View a(int)
+
+Class file attributes (count = 1):
+  + Source file attribute:
+    + Utf8 [ProGuard]
+

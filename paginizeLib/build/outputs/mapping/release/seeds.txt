@@ -1,0 +1,6 @@
+net.neevek.android.lib.paginize.Page$TYPE: net.neevek.android.lib.paginize.Page$TYPE[] values()
+net.neevek.android.lib.paginize.Page$TYPE: net.neevek.android.lib.paginize.Page$TYPE valueOf(java.lang.String)
+net.neevek.android.lib.paginize.PageActivity
+net.neevek.android.lib.paginize.anim.PageAnimator
+net.neevek.android.lib.paginize.anim.SlidePageAnimator
+net.neevek.android.lib.paginize.anim.ZoomPageAnimator

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/emanueletonello/AndroidProjects/PaginizeDemo/paginizeDemo/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="dark_gray">#ffaaaaaa</color>
+    <color name="light_gray">#ffeeeeee</color>
+    <!-- From: file:/Users/emanueletonello/AndroidProjects/PaginizeDemo/paginizeDemo/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Paginize</string>
+    <!-- From: file:/Users/emanueletonello/AndroidProjects/PaginizeDemo/paginizeDemo/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="nav_item" parent="@android:style/Widget.Button">
+    <item name="android:layout_width">0dip</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:button">@null</item>
+    <item name="android:textSize">18sp</item>
+    <item name="android:shadowColor">@android:color/black</item>
+    <item name="android:background">@drawable/nav_item_bg_selector</item>
+  </style>
+</resources>
