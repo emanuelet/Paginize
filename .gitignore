@@ -1,0 +1,15 @@
+bin/
+gen/
+obj/
+proguard/
+.classpath
+.project
+.DS_Store
+.settings
+local.properties
+*.iml
+PaginizeLib/ant.properties
+PaginizeDemo/ant.properties
+.idea/
+out
+*.out
